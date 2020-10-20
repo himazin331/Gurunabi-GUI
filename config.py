@@ -1,4 +1,4 @@
-API_KEY = "d9e47dc8581fb26f9fe20c7885149545"
+API_KEY = "***********"
 
 PLACE = {
             "北海道":{
@@ -7,6 +7,7 @@ PLACE = {
                     "札幌駅・大通・すすきの":{
                         "areaLcode":"AREAL5500",
                         "areaM":{
+                            "---":"None",
                             "札幌駅":"AREAM5502",
                             "札幌大通・狸小路":"AREAM5504",
                             "札幌すすきの":"AREAM5909",
@@ -16,12 +17,14 @@ PLACE = {
                     "円山公園・西18丁目・宮の森":{
                         "areaLcode":"AREAL5522",
                         "areaM":{
+                            "---":"None",
                             "円山公園・西18丁目・宮の森":"AREAM5522",
                         }
                     },
                     "琴似・手稲":{
                         "areaLcode":"AREAL5520",
                         "areaM":{
+                            "---":"None",
                             "琴似・西区":"AREAM5524",
                             "手稲区":"AREAM5911",
                         }
@@ -29,6 +32,7 @@ PLACE = {
                     "白石・南郷・新さっぽろ":{
                         "areaLcode":"AREAL5540",
                         "areaM":{
+                            "---":"None",
                             "白石区":"AREAM5542",
                             "南郷・北郷":"AREAM5544",
                             "新さっぽろ・厚別区":"AREAM5546",
@@ -37,6 +41,7 @@ PLACE = {
                     "平岸・澄川・月寒・清田":{
                         "areaLcode":"AREAL5560",
                         "areaM":{
+                            "---":"None",
                             "豊平区（平岸・月寒）":"AREAM5562",
                             "南区（澄川・真駒内）":"AREAM5914",
                             "清田区":"AREAM5566",
@@ -45,6 +50,7 @@ PLACE = {
                     "北24条・麻生・元町・栄町":{
                         "areaLcode":"AREAL5580",
                         "areaM":{
+                            "---":"None",
                             "北区（北24条・麻生）":"AREAM5582",
                             "東区（元町・栄町）":"AREAM5586",
                         }
@@ -52,6 +58,7 @@ PLACE = {
                     "旭川・富良野・名寄":{
                         "areaLcode":"AREAL5800",
                         "areaM":{
+                            "---":"None",
                             "旭川":"AREAM5800",
                             "富良野・美瑛":"AREAM5803",
                             "上川・和寒":"AREAM5810",
@@ -61,6 +68,7 @@ PLACE = {
                     "函館・松前・奥尻":{
                         "areaLcode":"AREAL5700",
                         "areaM":{
+                            "---":"None",
                             "函館":"AREAM5702",
                             "七飯・松前・渡島":"AREAM5704",
                             "江差・奥尻・檜山":"AREAM5706",
@@ -69,6 +77,7 @@ PLACE = {
                     "小樽・ニセコ・積丹":{
                         "areaLcode":"AREAL5600",
                         "areaM":{
+                            "---":"None",
                             "小樽":"AREAM5602",
                             "ニセコ・倶知安":"AREAM5710",
                             "余市・積丹":"AREAM5605",
@@ -78,6 +87,7 @@ PLACE = {
                     "石狩・江別・千歳":{
                         "areaLcode":"AREAL5610",
                         "areaM":{
+                            "---":"None",
                             "石狩":"AREAM5915",
                             "江別・北広島・恵庭":"AREAM5604",
                             "千歳":"AREAM5606",
@@ -86,6 +96,7 @@ PLACE = {
                     "苫小牧・室蘭":{
                         "areaLcode":"AREAL5710",
                         "areaM":{
+                            "---":"None",
                             "苫小牧":"AREAM5708",
                             "室蘭":"AREAM5912",
                         }
@@ -93,54 +104,63 @@ PLACE = {
                     "夕張・岩見沢":{
                         "areaLcode":"AREAL5802",
                         "areaM":{
+                            "---":"None",
                             "夕張・岩見沢":"AREAM5802",
                         }
                     },
                     "羽幌・留萌":{
                         "areaLcode":"AREAL5804",
                         "areaM":{
+                            "---":"None",
                             "羽幌・留萌":"AREAM5804",
                         }
                     },
                     "稚内・宗谷":{
                         "areaLcode":"AREAL5806",
                         "areaM":{
+                            "---":"None",
                             "稚内・宗谷":"AREAM5806",
                         }
                     },
                     "日高・えりも":{
                         "areaLcode":"AREAL5712",
                         "areaM":{
+                            "---":"None",
                             "日高・えりも":"AREAM5712",
                         }
                     },
                     "帯広・十勝":{
                         "areaLcode":"AREAL5902",
                         "areaM":{
+                            "---":"None",
                             "帯広・十勝":"AREAM5902",
                         }
                     },
                     "釧路・阿寒":{
                         "areaLcode":"AREAL5900",
                         "areaM":{
+                            "---":"None",
                             "釧路・阿寒":"AREAM5904",
                         }
                     },
                     "根室・中標津":{
                         "areaLcode":"AREAL5906",
                         "areaM":{
+                            "---":"None",
                             "根室・中標津":"AREAM5906",
                         }
                     },
                     "網走":{
                         "areaLcode":"AREAL5908",
                         "areaM":{
+                            "---":"None",
                             "網走":"AREAM5908",
                         }
                     },
                     "北見・紋別":{
                         "areaLcode":"AREAL5910",
                         "areaM":{
+                            "---":"None",
                             "北見":"AREAM5913",
                             "紋別":"AREAM5916",
                         }
@@ -153,6 +173,7 @@ PLACE = {
                     "仙台市":{
                         "areaLcode":"AREAL6205",
                         "areaM":{
+                            "---":"None",
                             "仙台":"AREAM6202",
                             "青葉区郊外":"AREAM6214",
                             "泉区・泉中央・富谷":"AREAM6222",
@@ -163,6 +184,7 @@ PLACE = {
                     "名取・白石・宮城県南部":{
                         "areaLcode":"AREAL6260",
                         "areaM":{
+                            "---":"None",
                             "名取・沿岸南部":"AREAM6262",
                             "白石・蔵王":"AREAM6268",
                         }
@@ -170,12 +192,14 @@ PLACE = {
                     "大崎・古川・登米":{
                         "areaLcode":"AREAL6266",
                         "areaM":{
+                            "---":"None",
                             "大崎・古川・登米":"AREAM6266",
                         }
                     },
                     "松島・石巻・気仙沼":{
                         "areaLcode":"AREAL6250",
                         "areaM":{
+                            "---":"None",
                             "松島・利府":"AREAM6252",
                             "塩釜・多賀城":"AREAM6254",
                             "石巻":"AREAM6264",
@@ -190,12 +214,14 @@ PLACE = {
                     "青森市":{
                         "areaLcode":"AREAL6100",
                         "areaM":{
+                            "---":"None",
                             "青森市":"AREAM6102",
                         }
                     },
                     "弘前・黒石・平川":{
                         "areaLcode":"AREAL6101",
                         "areaM":{
+                            "---":"None",
                             "弘前":"AREAM6104",
                             "黒石・平川":"AREAM6105",
                         }
@@ -203,18 +229,21 @@ PLACE = {
                     "つがる・鰺ヶ沢・深浦":{
                         "areaLcode":"AREAL6103",
                         "areaM":{
+                            "---":"None",
                             "つがる・鰺ヶ沢・深浦":"AREAM6433",
                         }
                     },
                     "五所川原・中泊":{
                         "areaLcode":"AREAL6104",
                         "areaM":{
+                            "---":"None",
                             "五所川原・中泊":"AREAM6106",
                         }
                     },
                     "十和田・七戸・東北町":{
                         "areaLcode":"AREAL6105",
                         "areaM":{
+                            "---":"None",
                             "十和田":"AREAM6107",
                             "七戸・東北町":"AREAM6108",
                         }
@@ -222,6 +251,7 @@ PLACE = {
                     "三沢・三戸・五戸":{
                         "areaLcode":"AREAL6106",
                         "areaM":{
+                            "---":"None",
                             "三沢":"AREAM6109",
                             "三戸・五戸・おいらせ":"AREAM6110",
                         }
@@ -229,12 +259,14 @@ PLACE = {
                     "八戸":{
                         "areaLcode":"AREAL6102",
                         "areaM":{
+                            "---":"None",
                             "八戸":"AREAM6112",
                         }
                     },
                     "むつ市・大間・野辺地":{
                         "areaLcode":"AREAL6107",
                         "areaM":{
+                            "---":"None",
                             "むつ市・大間・野辺地":"AREAM6434",
                         }
                     },
@@ -246,12 +278,14 @@ PLACE = {
                     "盛岡":{
                         "areaLcode":"AREAL6150",
                         "areaM":{
+                            "---":"None",
                             "盛岡":"AREAM6152",
                         }
                     },
                     "二戸・八幡平・滝沢":{
                         "areaLcode":"AREAL6151",
                         "areaM":{
+                            "---":"None",
                             "二戸":"AREAM6161",
                             "八幡平・滝沢・紫波":"AREAM6162",
                         }
@@ -259,6 +293,7 @@ PLACE = {
                     "奥州・一関・平泉":{
                         "areaLcode":"AREAL6154",
                         "areaM":{
+                            "---":"None",
                             "奥州・金ケ崎":"AREAM6163",
                             "一関・平泉":"AREAM6164",
                         }
@@ -266,6 +301,7 @@ PLACE = {
                     "花巻・北上・遠野":{
                         "areaLcode":"AREAL6152",
                         "areaM":{
+                            "---":"None",
                             "花巻":"AREAM6172",
                             "北上・西和賀":"AREAM6174",
                             "遠野":"AREAM6173",
@@ -274,6 +310,7 @@ PLACE = {
                     "三陸海岸沿岸部":{
                         "areaLcode":"AREAL6153",
                         "areaM":{
+                            "---":"None",
                             "洋野・久慈・普代":"AREAM6181",
                             "岩泉・宮古・山田":"AREAM6182",
                             "釜石・大槌":"AREAM6183",
@@ -288,12 +325,14 @@ PLACE = {
                     "秋田市":{
                         "areaLcode":"AREAL6300",
                         "areaM":{
+                            "---":"None",
                             "秋田市":"AREAM6302",
                         }
                     },
                     "能代・山本・男鹿":{
                         "areaLcode":"AREAL6301",
                         "areaM":{
+                            "---":"None",
                             "能代・八峰・藤里":"AREAM6312",
                             "男鹿・大潟・五城目":"AREAM6303",
                         }
@@ -301,18 +340,21 @@ PLACE = {
                     "由利本荘・にかほ":{
                         "areaLcode":"AREAL6303",
                         "areaM":{
+                            "---":"None",
                             "由利本荘・にかほ":"AREAM6304",
                         }
                     },
                     "北秋田・大館・鹿角":{
                         "areaLcode":"AREAL6304",
                         "areaM":{
+                            "---":"None",
                             "北秋田・大館・鹿角":"AREAM6305",
                         }
                     },
                     "仙北・大仙・横手":{
                         "areaLcode":"AREAL6302",
                         "areaM":{
+                            "---":"None",
                             "仙北・大仙":"AREAM6306",
                             "横手":"AREAM6322",
                         }
@@ -320,6 +362,7 @@ PLACE = {
                     "湯沢・羽後":{
                         "areaLcode":"AREAL6305",
                         "areaM":{
+                            "---":"None",
                             "湯沢・羽後":"AREAM6307",
                         }
                     },
@@ -331,12 +374,14 @@ PLACE = {
                     "山形市":{
                         "areaLcode":"AREAL6350",
                         "areaM":{
+                            "---":"None",
                             "山形市":"AREAM6352",
                         }
                     },
                     "米沢・置賜":{
                         "areaLcode":"AREAL6351",
                         "areaM":{
+                            "---":"None",
                             "米沢・高畠・南陽":"AREAM6362",
                             "上山":"AREAM6364",
                             "白鷹・長井・小国":"AREAM6363",
@@ -345,6 +390,7 @@ PLACE = {
                     "天童・尾花沢・寒河江":{
                         "areaLcode":"AREAL6353",
                         "areaM":{
+                            "---":"None",
                             "天童・東根・尾花沢":"AREAM6375",
                             "寒河江・大江・朝日町":"AREAM6374",
                         }
@@ -352,18 +398,21 @@ PLACE = {
                     "新庄・最上":{
                         "areaLcode":"AREAL6354",
                         "areaM":{
+                            "---":"None",
                             "新庄・最上":"AREAM6376",
                         }
                     },
                     "酒田・遊佐":{
                         "areaLcode":"AREAL6352",
                         "areaM":{
+                            "---":"None",
                             "酒田・遊佐":"AREAM6436",
                         }
                     },
                     "鶴岡・庄内":{
                         "areaLcode":"AREAL6355",
                         "areaM":{
+                            "---":"None",
                             "鶴岡・庄内":"AREAM6372",
                         }
                     },
@@ -375,72 +424,84 @@ PLACE = {
                     "福島市":{
                         "areaLcode":"AREAL6400",
                         "areaM":{
+                            "---":"None",
                             "福島市":"AREAM6402",
                         }
                     },
                     "二本松・本宮":{
                         "areaLcode":"AREAL6403",
                         "areaM":{
+                            "---":"None",
                             "二本松・本宮":"AREAM6403",
                         }
                     },
                     "伊達・桑折・川俣":{
                         "areaLcode":"AREAL6404",
                         "areaM":{
+                            "---":"None",
                             "伊達・桑折・川俣":"AREAM6404",
                         }
                     },
                     "郡山":{
                         "areaLcode":"AREAL6405",
                         "areaM":{
+                            "---":"None",
                             "郡山":"AREAM6437",
                         }
                     },
                     "田村・小野・三春":{
                         "areaLcode":"AREAL6406",
                         "areaM":{
+                            "---":"None",
                             "田村・小野・三春":"AREAM6439",
                         }
                     },
                     "須賀川・天栄":{
                         "areaLcode":"AREAL6407",
                         "areaM":{
+                            "---":"None",
                             "須賀川・天栄":"AREAM6440",
                         }
                     },
                     "古殿・石川町・玉川村":{
                         "areaLcode":"AREAL6408",
                         "areaM":{
+                            "---":"None",
                             "古殿・石川町・玉川村":"AREAM6441",
                         }
                     },
                     "白河・矢吹":{
                         "areaLcode":"AREAL6409",
                         "areaM":{
+                            "---":"None",
                             "白河・矢吹":"AREAM6438",
                         }
                     },
                     "いわき":{
                         "areaLcode":"AREAL6401",
                         "areaM":{
+                            "---":"None",
                             "いわき":"AREAM6422",
                         }
                     },
                     "浪江・大熊・広野":{
                         "areaLcode":"AREAL6410",
                         "areaM":{
+                            "---":"None",
                             "浪江・大熊・広野":"AREAM6423",
                         }
                     },
                     "相馬・南相馬":{
                         "areaLcode":"AREAL6411",
                         "areaM":{
+                            "---":"None",
                             "相馬・南相馬":"AREAM6424",
                         }
                     },
                     "会津若松・喜多方":{
                         "areaLcode":"AREAL6402",
                         "areaM":{
+                            "---":"None",
                             "会津若松":"AREAM6432",
                             "猪苗代・北塩原":"AREAM6425",
                             "喜多方":"AREAM6426",
@@ -449,6 +510,7 @@ PLACE = {
                     "下郷・南会津・只見":{
                         "areaLcode":"AREAL6412",
                         "areaM":{
+                            "---":"None",
                             "下郷・南会津・只見":"AREAM6427",
                         }
                     },
@@ -460,6 +522,7 @@ PLACE = {
                     "銀座・有楽町・築地":{
                         "areaLcode":"AREAL2101",
                         "areaM":{
+                            "---":"None",
                             "銀座":"AREAM2105",
                             "有楽町・日比谷":"AREAM2106",
                             "築地":"AREAM2109",
@@ -469,6 +532,7 @@ PLACE = {
                     "新橋・浜松町・田町":{
                         "areaLcode":"AREAL2107",
                         "areaM":{
+                            "---":"None",
                             "新橋":"AREAM2107",
                             "虎ノ門":"AREAM2136",
                             "浜松町・大門":"AREAM2172",
@@ -481,6 +545,7 @@ PLACE = {
                     "赤坂・六本木・麻布":{
                         "areaLcode":"AREAL2133",
                         "areaM":{
+                            "---":"None",
                             "赤坂":"AREAM2133",
                             "永田町":"AREAM2943",
                             "霞ヶ関":"AREAM2944",
@@ -495,6 +560,7 @@ PLACE = {
                     "飯田橋・四ツ谷・神楽坂":{
                         "areaLcode":"AREAL2184",
                         "areaM":{
+                            "---":"None",
                             "飯田橋":"AREAM2187",
                             "神楽坂":"AREAM2192",
                             "九段下":"AREAM2956",
@@ -507,6 +573,7 @@ PLACE = {
                     "新宿・代々木":{
                         "areaLcode":"AREAL2115",
                         "areaM":{
+                            "---":"None",
                             "新宿":"AREAM2115",
                             "初台":"AREAM2933",
                             "千駄ヶ谷":"AREAM2934",
@@ -515,6 +582,7 @@ PLACE = {
                     "大久保・高田馬場":{
                         "areaLcode":"AREAL2116",
                         "areaM":{
+                            "---":"None",
                             "大久保":"AREAM2122",
                             "高田馬場":"AREAM2123",
                             "早稲田":"AREAM2935",
@@ -523,6 +591,7 @@ PLACE = {
                     "渋谷・原宿・青山":{
                         "areaLcode":"AREAL2125",
                         "areaM":{
+                            "---":"None",
                             "渋谷":"AREAM2126",
                             "原宿":"AREAM2129",
                             "表参道・青山":"AREAM2130",
@@ -532,6 +601,7 @@ PLACE = {
                     "池袋・巣鴨・駒込":{
                         "areaLcode":"AREAL2156",
                         "areaM":{
+                            "---":"None",
                             "池袋":"AREAM2157",
                             "目白":"AREAM2159",
                             "護国寺":"AREAM2158",
@@ -544,6 +614,7 @@ PLACE = {
                     "東京駅・丸の内・日本橋":{
                         "areaLcode":"AREAL2141",
                         "areaM":{
+                            "---":"None",
                             "丸の内":"AREAM2141",
                             "大手町":"AREAM2940",
                             "東京駅（八重洲）":"AREAM2941",
@@ -555,6 +626,7 @@ PLACE = {
                     "上野・浅草・日暮里":{
                         "areaLcode":"AREAL2198",
                         "areaM":{
+                            "---":"None",
                             "上野":"AREAM2198",
                             "御徒町":"AREAM2948",
                             "湯島":"AREAM2949",
@@ -568,6 +640,7 @@ PLACE = {
                     "神田・秋葉原・水道橋":{
                         "areaLcode":"AREAL2142",
                         "areaM":{
+                            "---":"None",
                             "神田":"AREAM2142",
                             "秋葉原":"AREAM2200",
                             "御茶ノ水":"AREAM2184",
@@ -580,6 +653,7 @@ PLACE = {
                     "品川・五反田・大崎":{
                         "areaLcode":"AREAL2169",
                         "areaM":{
+                            "---":"None",
                             "品川":"AREAM2169",
                             "五反田":"AREAM2176",
                             "大崎":"AREAM2960",
@@ -590,6 +664,7 @@ PLACE = {
                     "お台場・豊洲・湾岸":{
                         "areaLcode":"AREAL2170",
                         "areaM":{
+                            "---":"None",
                             "お台場":"AREAM2113",
                             "有明":"AREAM2962",
                             "晴海":"AREAM2963",
@@ -599,6 +674,7 @@ PLACE = {
                     "恵比寿・中目黒・目黒":{
                         "areaLcode":"AREAL2178",
                         "areaM":{
+                            "---":"None",
                             "恵比寿":"AREAM2178",
                             "代官山":"AREAM2964",
                             "中目黒":"AREAM2181",
@@ -610,6 +686,7 @@ PLACE = {
                     "自由が丘・三軒茶屋・二子玉川":{
                         "areaLcode":"AREAL2164",
                         "areaM":{
+                            "---":"None",
                             "自由が丘":"AREAM2164",
                             "田園調布":"AREAM2967",
                             "学芸大学":"AREAM2968",
@@ -622,6 +699,7 @@ PLACE = {
                     "下北沢・明大前・成城学園前":{
                         "areaLcode":"AREAL2207",
                         "areaM":{
+                            "---":"None",
                             "下北沢":"AREAM2207",
                             "代々木上原":"AREAM2971",
                             "笹塚":"AREAM2209",
@@ -636,6 +714,7 @@ PLACE = {
                     "中野・吉祥寺・三鷹":{
                         "areaLcode":"AREAL2217",
                         "areaM":{
+                            "---":"None",
                             "中野":"AREAM2217",
                             "荻窪":"AREAM2976",
                             "高円寺":"AREAM2977",
@@ -649,6 +728,7 @@ PLACE = {
                     "練馬・江古田・田無":{
                         "areaLcode":"AREAL2222",
                         "areaM":{
+                            "---":"None",
                             "練馬":"AREAM2222",
                             "平和台":"AREAM2982",
                             "光が丘":"AREAM2983",
@@ -664,6 +744,7 @@ PLACE = {
                     "錦糸町・押上・新小岩":{
                         "areaLcode":"AREAL2228",
                         "areaM":{
+                            "---":"None",
                             "錦糸町・住吉":"AREAM2228",
                             "押上":"AREAM2990",
                             "両国":"AREAM2991",
@@ -677,6 +758,7 @@ PLACE = {
                     "人形町・門前仲町・葛西":{
                         "areaLcode":"AREAL2146",
                         "areaM":{
+                            "---":"None",
                             "人形町・小伝馬町":"AREAM2148",
                             "茅場町":"AREAM2146",
                             "八丁堀":"AREAM2996",
@@ -692,6 +774,7 @@ PLACE = {
                     "北千住・綾瀬・亀有":{
                         "areaLcode":"AREAL2241",
                         "areaM":{
+                            "---":"None",
                             "南千住":"AREAM3000",
                             "町屋":"AREAM2241",
                             "北千住":"AREAM2243",
@@ -704,6 +787,7 @@ PLACE = {
                     "板橋・成増・赤羽":{
                         "areaLcode":"AREAL2250",
                         "areaM":{
+                            "---":"None",
                             "板橋":"AREAM2250",
                             "成増":"AREAM3005",
                             "高島平":"AREAM3006",
@@ -714,6 +798,7 @@ PLACE = {
                     "大井町・大森・蒲田":{
                         "areaLcode":"AREAL2254",
                         "areaM":{
+                            "---":"None",
                             "大井町":"AREAM2254",
                             "大森":"AREAM3008",
                             "蒲田":"AREAM2255",
@@ -724,6 +809,7 @@ PLACE = {
                     "府中・調布":{
                         "areaLcode":"AREAL2273",
                         "areaM":{
+                            "---":"None",
                             "府中":"AREAM2273",
                             "稲城":"AREAM3011",
                             "調布":"AREAM3012",
@@ -733,6 +819,7 @@ PLACE = {
                     "町田・多摩":{
                         "areaLcode":"AREAL2923",
                         "areaM":{
+                            "---":"None",
                             "多摩センター":"AREAM3013",
                             "町田":"AREAM2294",
                             "鶴川":"AREAM3077",
@@ -741,6 +828,7 @@ PLACE = {
                     "小金井・国分寺・国立":{
                         "areaLcode":"AREAL2278",
                         "areaM":{
+                            "---":"None",
                             "小金井":"AREAM2278",
                             "小平":"AREAM2279",
                             "国分寺":"AREAM2280",
@@ -750,6 +838,7 @@ PLACE = {
                     "立川・八王子・青梅":{
                         "areaLcode":"AREAL2286",
                         "areaM":{
+                            "---":"None",
                             "立川":"AREAM2286",
                             "昭島":"AREAM3014",
                             "八王子":"AREAM2288",
@@ -762,6 +851,7 @@ PLACE = {
                     "伊豆諸島・小笠原諸島":{
                         "areaLcode":"AREAL2295",
                         "areaM":{
+                            "---":"None",
                             "伊豆諸島・小笠原諸島":"AREAM2295",
                         }
                     },
@@ -773,6 +863,7 @@ PLACE = {
                     "溝の口・たまプラーザ・青葉台":{
                         "areaLcode":"AREAL2308",
                         "areaM":{
+                            "---":"None",
                             "溝の口":"AREAM2308",
                             "宮崎台・鷺沼":"AREAM2309",
                             "たまプラーザ・あざみ野":"AREAM2364",
@@ -782,6 +873,7 @@ PLACE = {
                     "横浜・東神奈川":{
                         "areaLcode":"AREAL2322",
                         "areaM":{
+                            "---":"None",
                             "横浜駅":"AREAM2322",
                             "平沼":"AREAM2326",
                             "浅間下":"AREAM2328",
@@ -792,6 +884,7 @@ PLACE = {
                     "みなとみらい・関内・中華街":{
                         "areaLcode":"AREAL2336",
                         "areaM":{
+                            "---":"None",
                             "みなとみらい":"AREAM2324",
                             "関内・馬車道":"AREAM2332",
                             "横浜元町・山下公園":"AREAM2340",
@@ -804,6 +897,7 @@ PLACE = {
                     "川崎・鶴見":{
                         "areaLcode":"AREAL2302",
                         "areaM":{
+                            "---":"None",
                             "川崎":"AREAM2302",
                             "鶴見":"AREAM2348",
                         }
@@ -811,6 +905,7 @@ PLACE = {
                     "武蔵小杉・日吉・綱島":{
                         "areaLcode":"AREAL2310",
                         "areaM":{
+                            "---":"None",
                             "武蔵小杉・元住吉":"AREAM2310",
                             "日吉・綱島":"AREAM2356",
                             "白楽・反町":"AREAM2398",
@@ -819,6 +914,7 @@ PLACE = {
                     "新横浜・センター南・鴨居":{
                         "areaLcode":"AREAL2354",
                         "areaM":{
+                            "---":"None",
                             "新横浜":"AREAM2354",
                             "センター北・南":"AREAM2358",
                             "鴨居・十日市場":"AREAM2900",
@@ -827,6 +923,7 @@ PLACE = {
                     "上大岡・金沢文庫・新杉田":{
                         "areaLcode":"AREAL2360",
                         "areaM":{
+                            "---":"None",
                             "上大岡・弘明寺":"AREAM2360",
                             "港南台・洋光台":"AREAM3022",
                             "磯子・新杉田":"AREAM2362",
@@ -836,6 +933,7 @@ PLACE = {
                     "横須賀・久里浜・三浦半島":{
                         "areaLcode":"AREAL2372",
                         "areaM":{
+                            "---":"None",
                             "横須賀・追浜":"AREAM2372",
                             "久里浜・浦賀":"AREAM3024",
                             "秋谷・大楠":"AREAM3025",
@@ -846,12 +944,14 @@ PLACE = {
                     "戸塚・東戸塚":{
                         "areaLcode":"AREAL2352",
                         "areaM":{
+                            "---":"None",
                             "戸塚・東戸塚":"AREAM2366",
                         }
                     },
                     "鎌倉・大船・逗子":{
                         "areaLcode":"AREAL2374",
                         "areaM":{
+                            "---":"None",
                             "鎌倉":"AREAM2374",
                             "逗子":"AREAM3026",
                             "大船":"AREAM3028",
@@ -860,6 +960,7 @@ PLACE = {
                     "藤沢・茅ヶ崎・平塚":{
                         "areaLcode":"AREAL2375",
                         "areaM":{
+                            "---":"None",
                             "藤沢":"AREAM2914",
                             "辻堂":"AREAM3029",
                             "江ノ島・鵠沼":"AREAM3075",
@@ -872,6 +973,7 @@ PLACE = {
                     "登戸・向ヶ丘遊園・新百合ヶ丘":{
                         "areaLcode":"AREAL2294",
                         "areaM":{
+                            "---":"None",
                             "登戸・向ヶ丘遊園":"AREAM3031",
                             "新百合ヶ丘":"AREAM2306",
                         }
@@ -879,6 +981,7 @@ PLACE = {
                     "大和・中央林間・二俣川":{
                         "areaLcode":"AREAL2350",
                         "areaM":{
+                            "---":"None",
                             "保土ヶ谷・星川":"AREAM2352",
                             "二俣川":"AREAM2350",
                             "いずみ野・立場":"AREAM2912",
@@ -889,6 +992,7 @@ PLACE = {
                     "相模大野・橋本・相模湖":{
                         "areaLcode":"AREAL2293",
                         "areaM":{
+                            "---":"None",
                             "相模大野":"AREAM3032",
                             "橋本・相模原・古淵":"AREAM2384",
                             "相模湖・津久井":"AREAM2382",
@@ -897,6 +1001,7 @@ PLACE = {
                     "本厚木・海老名":{
                         "areaLcode":"AREAL2296",
                         "areaM":{
+                            "---":"None",
                             "本厚木・厚木":"AREAM3033",
                             "海老名":"AREAM3034",
                         }
@@ -904,6 +1009,7 @@ PLACE = {
                     "伊勢原・秦野・渋沢":{
                         "areaLcode":"AREAL2922",
                         "areaM":{
+                            "---":"None",
                             "秦野・渋沢・大井松田":"AREAM2922",
                             "愛甲石田・伊勢原":"AREAM2924",
                         }
@@ -911,6 +1017,7 @@ PLACE = {
                     "小田原・箱根・湯河原":{
                         "areaLcode":"AREAL2380",
                         "areaM":{
+                            "---":"None",
                             "小田原・南足柄":"AREAM2380",
                             "箱根":"AREAM2392",
                             "強羅":"AREAM3037",
@@ -925,6 +1032,7 @@ PLACE = {
                     "朝霞・川越・坂戸":{
                         "areaLcode":"AREAL2432",
                         "areaM":{
+                            "---":"None",
                             "朝霞":"AREAM2424",
                             "川越":"AREAM2434",
                             "東松山・鶴ヶ島":"AREAM2452",
@@ -937,6 +1045,7 @@ PLACE = {
                     "所沢・入間・狭山":{
                         "areaLcode":"AREAL2452",
                         "areaM":{
+                            "---":"None",
                             "狭山":"AREAM2435",
                             "入間":"AREAM3048",
                             "所沢":"AREAM2432",
@@ -945,6 +1054,7 @@ PLACE = {
                     "大宮・さいたま新都心":{
                         "areaLcode":"AREAL2402",
                         "areaM":{
+                            "---":"None",
                             "大宮":"AREAM2402",
                             "さいたま新都心・与野":"AREAM2404",
                             "さいたま市北部":"AREAM2406",
@@ -953,12 +1063,14 @@ PLACE = {
                     "浦和":{
                         "areaLcode":"AREAL2408",
                         "areaM":{
+                            "---":"None",
                             "浦和":"AREAM2410",
                         }
                     },
                     "川口・蕨・戸田":{
                         "areaLcode":"AREAL2422",
                         "areaM":{
+                            "---":"None",
                             "川口・東川口":"AREAM2422",
                             "蕨":"AREAM3042",
                             "戸田・戸田公園":"AREAM2470",
@@ -967,6 +1079,7 @@ PLACE = {
                     "越谷・草加・春日部":{
                         "areaLcode":"AREAL2428",
                         "areaM":{
+                            "---":"None",
                             "越谷":"AREAM3079",
                             "草加":"AREAM2428",
                             "三郷・八潮":"AREAM2429",
@@ -977,6 +1090,7 @@ PLACE = {
                     "秩父・長瀞・飯能":{
                         "areaLcode":"AREAL2453",
                         "areaM":{
+                            "---":"None",
                             "飯能・日高":"AREAM2454",
                             "秩父・長瀞":"AREAM2456",
                         }
@@ -984,6 +1098,7 @@ PLACE = {
                     "上尾・熊谷・久喜":{
                         "areaLcode":"AREAL2442",
                         "areaM":{
+                            "---":"None",
                             "上尾・蓮田":"AREAM2426",
                             "桶川・鴻巣":"AREAM2446",
                             "熊谷・行田":"AREAM2442",
@@ -999,6 +1114,7 @@ PLACE = {
                     "柏・松戸・我孫子":{
                         "areaLcode":"AREAL2542",
                         "areaM":{
+                            "---":"None",
                             "柏":"AREAM2542",
                             "松戸":"AREAM2544",
                             "野田":"AREAM2546",
@@ -1010,6 +1126,7 @@ PLACE = {
                     "成田・八千代・佐倉":{
                         "areaLcode":"AREAL2562",
                         "areaM":{
+                            "---":"None",
                             "白井・印西":"AREAM2553",
                             "八千代・佐倉・四街道":"AREAM2554",
                             "成田・佐原":"AREAM2562",
@@ -1018,6 +1135,7 @@ PLACE = {
                     "内房・外房・銚子":{
                         "areaLcode":"AREAL2564",
                         "areaM":{
+                            "---":"None",
                             "木更津":"AREAM2556",
                             "茂原":"AREAM2558",
                             "東金・九十九里":"AREAM2560",
@@ -1031,6 +1149,7 @@ PLACE = {
                     "千葉・幕張":{
                         "areaLcode":"AREAL2502",
                         "areaM":{
+                            "---":"None",
                             "千葉駅・蘇我":"AREAM2502",
                             "幕張":"AREAM2504",
                             "稲毛":"AREAM3050",
@@ -1041,6 +1160,7 @@ PLACE = {
                     "市川・船橋・津田沼":{
                         "areaLcode":"AREAL2524",
                         "areaM":{
+                            "---":"None",
                             "本八幡":"AREAM3051",
                             "市川":"AREAM2524",
                             "船橋・西船橋":"AREAM2530",
@@ -1051,6 +1171,7 @@ PLACE = {
                     "舞浜・浦安・行徳":{
                         "areaLcode":"AREAL2526",
                         "areaM":{
+                            "---":"None",
                             "舞浜":"AREAM3053",
                             "浦安":"AREAM2526",
                             "南船橋・新習志野":"AREAM2528",
@@ -1065,6 +1186,7 @@ PLACE = {
                     "富岡・藤岡・安中":{
                         "areaLcode":"AREAL2604",
                         "areaM":{
+                            "---":"None",
                             "安中":"AREAM2606",
                             "藤岡・玉村":"AREAM2607",
                             "下仁田・上野村・神流町":"AREAM2608",
@@ -1074,36 +1196,42 @@ PLACE = {
                     "伊勢崎":{
                         "areaLcode":"AREAL2605",
                         "areaM":{
+                            "---":"None",
                             "伊勢崎":"AREAM2614",
                         }
                     },
                     "渋川・伊香保":{
                         "areaLcode":"AREAL2603",
                         "areaM":{
+                            "---":"None",
                             "渋川・伊香保":"AREAM3060",
                         }
                     },
                     "高崎":{
                         "areaLcode":"AREAL2601",
                         "areaM":{
+                            "---":"None",
                             "高崎":"AREAM2612",
                         }
                     },
                     "前橋":{
                         "areaLcode":"AREAL2607",
                         "areaM":{
+                            "---":"None",
                             "前橋":"AREAM3061",
                         }
                     },
                     "桐生・みどり市":{
                         "areaLcode":"AREAL2606",
                         "areaM":{
+                            "---":"None",
                             "桐生・みどり市":"AREAM2615",
                         }
                     },
                     "太田・館林・大泉":{
                         "areaLcode":"AREAL2608",
                         "areaM":{
+                            "---":"None",
                             "太田":"AREAM3062",
                             "館林・大泉・明和":"AREAM2616",
                         }
@@ -1111,6 +1239,7 @@ PLACE = {
                     "草津・東吾妻・嬬恋":{
                         "areaLcode":"AREAL2600",
                         "areaM":{
+                            "---":"None",
                             "草津":"AREAM2602",
                             "東吾妻・中之条・高山":"AREAM2603",
                             "嬬恋・長野原":"AREAM2604",
@@ -1119,6 +1248,7 @@ PLACE = {
                     "沼田・みなかみ・片品":{
                         "areaLcode":"AREAL2602",
                         "areaM":{
+                            "---":"None",
                             "沼田・みなかみ・片品":"AREAM2605",
                         }
                     },
@@ -1130,6 +1260,7 @@ PLACE = {
                     "県南地域":{
                         "areaLcode":"AREAL2805",
                         "areaM":{
+                            "---":"None",
                             "牛久・龍ケ崎・阿見":"AREAM2810",
                             "土浦":"AREAM3071",
                             "守谷":"AREAM3072",
@@ -1140,18 +1271,21 @@ PLACE = {
                     "つくば":{
                         "areaLcode":"AREAL2802",
                         "areaM":{
+                            "---":"None",
                             "つくば":"AREAM2822",
                         }
                     },
                     "水戸":{
                         "areaLcode":"AREAL2800",
                         "areaM":{
+                            "---":"None",
                             "水戸":"AREAM2812",
                         }
                     },
                     "笠間・大洗":{
                         "areaLcode":"AREAL2804",
                         "areaM":{
+                            "---":"None",
                             "笠間・城里":"AREAM2804",
                             "小美玉・茨城町":"AREAM2805",
                             "大洗":"AREAM2806",
@@ -1160,6 +1294,7 @@ PLACE = {
                     "ひたちなか・日立・常陸大宮":{
                         "areaLcode":"AREAL2801",
                         "areaM":{
+                            "---":"None",
                             "ひたちなか・勝田":"AREAM3069",
                             "那珂・東海村":"AREAM3070",
                             "日立":"AREAM2802",
@@ -1171,6 +1306,7 @@ PLACE = {
                     "県西地域":{
                         "areaLcode":"AREAL2806",
                         "areaM":{
+                            "---":"None",
                             "古河":"AREAM3073",
                             "筑西・結城・桜川":"AREAM3074",
                             "下妻・坂東・常総":"AREAM2811",
@@ -1179,6 +1315,7 @@ PLACE = {
                     "鹿行地域":{
                         "areaLcode":"AREAL2803",
                         "areaM":{
+                            "---":"None",
                             "鹿嶋・潮来":"AREAM2832",
                             "鉾田・行方":"AREAM2813",
                         }
@@ -1191,18 +1328,21 @@ PLACE = {
                     "宇都宮":{
                         "areaLcode":"AREAL2700",
                         "areaM":{
+                            "---":"None",
                             "宇都宮":"AREAM3063",
                         }
                     },
                     "小山・下野":{
                         "areaLcode":"AREAL2703",
                         "areaM":{
+                            "---":"None",
                             "小山・下野":"AREAM2712",
                         }
                     },
                     "真岡・益子・芳賀":{
                         "areaLcode":"AREAL2704",
                         "areaM":{
+                            "---":"None",
                             "真岡":"AREAM2717",
                             "益子・市貝・芳賀":"AREAM2718",
                         }
@@ -1210,6 +1350,7 @@ PLACE = {
                     "鹿沼・栃木市・壬生":{
                         "areaLcode":"AREAL2705",
                         "areaM":{
+                            "---":"None",
                             "鹿沼":"AREAM2719",
                             "栃木市・壬生":"AREAM3066",
                         }
@@ -1217,18 +1358,21 @@ PLACE = {
                     "佐野":{
                         "areaLcode":"AREAL2701",
                         "areaM":{
+                            "---":"None",
                             "佐野":"AREAM3064",
                         }
                     },
                     "足利":{
                         "areaLcode":"AREAL2706",
                         "areaM":{
+                            "---":"None",
                             "足利":"AREAM3065",
                         }
                     },
                     "日光・鬼怒川":{
                         "areaLcode":"AREAL2702",
                         "areaM":{
+                            "---":"None",
                             "日光":"AREAM2722",
                             "鬼怒川":"AREAM3068",
                         }
@@ -1236,18 +1380,21 @@ PLACE = {
                     "さくら市・高根沢":{
                         "areaLcode":"AREAL2707",
                         "areaM":{
+                            "---":"None",
                             "さくら市・高根沢":"AREAM2720",
                         }
                     },
                     "那須烏山・那珂川":{
                         "areaLcode":"AREAL2708",
                         "areaM":{
+                            "---":"None",
                             "那須烏山・那珂川":"AREAM2721",
                         }
                     },
                     "那須塩原・大田原・矢板":{
                         "areaLcode":"AREAL2709",
                         "areaM":{
+                            "---":"None",
                             "那須塩原・塩原温泉":"AREAM3067",
                             "黒磯":"AREAM2723",
                             "那須町・那須高原":"AREAM2724",
@@ -1263,6 +1410,7 @@ PLACE = {
                     "燕市・三条市":{
                         "areaLcode":"AREAL6607",
                         "areaM":{
+                            "---":"None",
                             "燕市・弥彦":"AREAM6606",
                             "三条市・燕三条・加茂":"AREAM6624",
                         }
@@ -1270,6 +1418,7 @@ PLACE = {
                     "長岡・見附・小千谷":{
                         "areaLcode":"AREAL6602",
                         "areaM":{
+                            "---":"None",
                             "長岡":"AREAM6622",
                             "見附":"AREAM6625",
                             "小千谷":"AREAM6623",
@@ -1278,6 +1427,7 @@ PLACE = {
                     "新潟市":{
                         "areaLcode":"AREAL6600",
                         "areaM":{
+                            "---":"None",
                             "新潟市中央区":"AREAM6602",
                             "新潟市江南区・秋葉区・南区":"AREAM6601",
                             "新潟市西区":"AREAM6603",
@@ -1288,66 +1438,77 @@ PLACE = {
                     "村上・関川":{
                         "areaLcode":"AREAL6604",
                         "areaM":{
+                            "---":"None",
                             "村上・関川":"AREAM6612",
                         }
                     },
                     "新発田・胎内":{
                         "areaLcode":"AREAL6601",
                         "areaM":{
+                            "---":"None",
                             "新発田・胎内":"AREAM6925",
                         }
                     },
                     "五泉・阿賀野・阿賀":{
                         "areaLcode":"AREAL6605",
                         "areaM":{
+                            "---":"None",
                             "五泉・阿賀野・阿賀":"AREAM6605",
                         }
                     },
                     "魚沼":{
                         "areaLcode":"AREAL6608",
                         "areaM":{
+                            "---":"None",
                             "魚沼":"AREAM6608",
                         }
                     },
                     "十日町・津南":{
                         "areaLcode":"AREAL6609",
                         "areaM":{
+                            "---":"None",
                             "十日町・津南":"AREAM6609",
                         }
                     },
                     "南魚沼・湯沢":{
                         "areaLcode":"AREAL6610",
                         "areaM":{
+                            "---":"None",
                             "南魚沼・湯沢":"AREAM6610",
                         }
                     },
                     "柏崎":{
                         "areaLcode":"AREAL6611",
                         "areaM":{
+                            "---":"None",
                             "柏崎":"AREAM6926",
                         }
                     },
                     "糸魚川":{
                         "areaLcode":"AREAL6615",
                         "areaM":{
+                            "---":"None",
                             "糸魚川":"AREAM6615",
                         }
                     },
                     "上越市":{
                         "areaLcode":"AREAL6613",
                         "areaM":{
+                            "---":"None",
                             "上越市":"AREAM6632",
                         }
                     },
                     "妙高":{
                         "areaLcode":"AREAL6614",
                         "areaM":{
+                            "---":"None",
                             "妙高":"AREAM6614",
                         }
                     },
                     "佐渡":{
                         "areaLcode":"AREAL6603",
                         "areaM":{
+                            "---":"None",
                             "佐渡":"AREAM6642",
                         }
                     },
@@ -1359,18 +1520,21 @@ PLACE = {
                     "富山市":{
                         "areaLcode":"AREAL6700",
                         "areaM":{
+                            "---":"None",
                             "富山市":"AREAM6702",
                         }
                     },
                     "立山・上市":{
                         "areaLcode":"AREAL6703",
                         "areaM":{
+                            "---":"None",
                             "立山・上市":"AREAM6703",
                         }
                     },
                     "滑川・魚津・黒部":{
                         "areaLcode":"AREAL6701",
                         "areaM":{
+                            "---":"None",
                             "滑川・魚津":"AREAM6711",
                             "黒部・入善・朝日町":"AREAM6712",
                         }
@@ -1378,30 +1542,35 @@ PLACE = {
                     "高岡":{
                         "areaLcode":"AREAL6702",
                         "areaM":{
+                            "---":"None",
                             "高岡":"AREAM6722",
                         }
                     },
                     "砺波・南砺":{
                         "areaLcode":"AREAL6704",
                         "areaM":{
+                            "---":"None",
                             "砺波・南砺":"AREAM6704",
                         }
                     },
                     "射水":{
                         "areaLcode":"AREAL6705",
                         "areaM":{
+                            "---":"None",
                             "射水":"AREAM6705",
                         }
                     },
                     "小矢部":{
                         "areaLcode":"AREAL6706",
                         "areaM":{
+                            "---":"None",
                             "小矢部":"AREAM6706",
                         }
                     },
                     "氷見":{
                         "areaLcode":"AREAL6707",
                         "areaM":{
+                            "---":"None",
                             "氷見":"AREAM6927",
                         }
                     },
@@ -1413,6 +1582,7 @@ PLACE = {
                     "金沢・野々市・かほく":{
                         "areaLcode":"AREAL6800",
                         "areaM":{
+                            "---":"None",
                             "金沢":"AREAM6930",
                             "野々市":"AREAM6806",
                             "かほく・津幡・内灘":"AREAM6805",
@@ -1421,6 +1591,7 @@ PLACE = {
                     "能登・和倉温泉・輪島":{
                         "areaLcode":"AREAL6802",
                         "areaM":{
+                            "---":"None",
                             "七尾・和倉温泉・羽咋":"AREAM6822",
                             "輪島・珠洲・穴水":"AREAM6832",
                         }
@@ -1428,6 +1599,7 @@ PLACE = {
                     "加賀・小松・白山":{
                         "areaLcode":"AREAL6801",
                         "areaM":{
+                            "---":"None",
                             "加賀・小松":"AREAM6812",
                             "白山・松任":"AREAM6842",
                         }
@@ -1440,12 +1612,14 @@ PLACE = {
                     "福井市":{
                         "areaLcode":"AREAL6900",
                         "areaM":{
+                            "---":"None",
                             "福井市":"AREAM6902",
                         }
                     },
                     "奥越":{
                         "areaLcode":"AREAL6903",
                         "areaM":{
+                            "---":"None",
                             "勝山":"AREAM6913",
                             "大野":"AREAM6914",
                         }
@@ -1453,12 +1627,14 @@ PLACE = {
                     "坂井・あわら・永平寺":{
                         "areaLcode":"AREAL6904",
                         "areaM":{
+                            "---":"None",
                             "坂井・あわら・永平寺":"AREAM6912",
                         }
                     },
                     "鯖江・越前市・南越前":{
                         "areaLcode":"AREAL6901",
                         "areaM":{
+                            "---":"None",
                             "鯖江・越前町":"AREAM6917",
                             "越前市":"AREAM6916",
                             "南越前・池田町":"AREAM6915",
@@ -1467,12 +1643,14 @@ PLACE = {
                     "敦賀・若狭・美浜":{
                         "areaLcode":"AREAL6902",
                         "areaM":{
+                            "---":"None",
                             "敦賀・若狭・美浜":"AREAM6922",
                         }
                     },
                     "小浜":{
                         "areaLcode":"AREAL6905",
                         "areaM":{
+                            "---":"None",
                             "小浜":"AREAM6928",
                         }
                     },
@@ -1484,6 +1662,7 @@ PLACE = {
                     "名古屋駅":{
                         "areaLcode":"AREAL4102",
                         "areaM":{
+                            "---":"None",
                             "名駅":"AREAM4102",
                             "その他の中村区":"AREAM4108",
                         }
@@ -1491,6 +1670,7 @@ PLACE = {
                     "大曽根・北区・西区":{
                         "areaLcode":"AREAL4262",
                         "areaM":{
+                            "---":"None",
                             "守山区":"AREAM4262",
                             "北区":"AREAM4264",
                             "西区":"AREAM4266",
@@ -1500,6 +1680,7 @@ PLACE = {
                     "一宮・江南":{
                         "areaLcode":"AREAL4301",
                         "areaM":{
+                            "---":"None",
                             "一宮":"AREAM4302",
                             "江南":"AREAM4841",
                         }
@@ -1507,6 +1688,7 @@ PLACE = {
                     "春日井・小牧":{
                         "areaLcode":"AREAL4302",
                         "areaM":{
+                            "---":"None",
                             "小牧":"AREAM4303",
                             "春日井":"AREAM4842",
                             "犬山":"AREAM4843",
@@ -1515,12 +1697,14 @@ PLACE = {
                     "栄周辺":{
                         "areaLcode":"AREAL4122",
                         "areaM":{
+                            "---":"None",
                             "栄周辺":"AREAM4122",
                         }
                     },
                     "（名古屋）伏見・丸の内":{
                         "areaLcode":"AREAL4142",
                         "areaM":{
+                            "---":"None",
                             "丸の内・市役所":"AREAM4142",
                             "（名古屋）伏見":"AREAM4144",
                         }
@@ -1528,6 +1712,7 @@ PLACE = {
                     "新栄・CBC・東区":{
                         "areaLcode":"AREAL4162",
                         "areaM":{
+                            "---":"None",
                             "新栄・CBC":"AREAM4162",
                             "白壁・東区役所":"AREAM4166",
                         }
@@ -1535,6 +1720,7 @@ PLACE = {
                     "金山・大須・熱田区":{
                         "areaLcode":"AREAL4182",
                         "areaM":{
+                            "---":"None",
                             "金山・東別院":"AREAM4182",
                             "大須・上前津・鶴舞":"AREAM4184",
                             "熱田区":"AREAM4186",
@@ -1543,6 +1729,7 @@ PLACE = {
                     "千種区・名東区":{
                         "areaLcode":"AREAL4202",
                         "areaM":{
+                            "---":"None",
                             "千種・今池・池下":"AREAM4202",
                             "覚王山・東山公園":"AREAM4204",
                             "星ヶ丘・一社":"AREAM4206",
@@ -1552,6 +1739,7 @@ PLACE = {
                     "昭和区・瑞穂区・天白区":{
                         "areaLcode":"AREAL4222",
                         "areaM":{
+                            "---":"None",
                             "天白区":"AREAM4222",
                             "瑞穂区":"AREAM4224",
                             "昭和区":"AREAM4226",
@@ -1560,6 +1748,7 @@ PLACE = {
                     "中川区・港区・南区・緑区":{
                         "areaLcode":"AREAL4242",
                         "areaM":{
+                            "---":"None",
                             "中川区":"AREAM4242",
                             "緑区":"AREAM4244",
                             "港区":"AREAM4246",
@@ -1569,12 +1758,14 @@ PLACE = {
                     "豊田":{
                         "areaLcode":"AREAL4271",
                         "areaM":{
+                            "---":"None",
                             "豊田":"AREAM4272",
                         }
                     },
                     "岡崎・刈谷・安城":{
                         "areaLcode":"AREAL4272",
                         "areaM":{
+                            "---":"None",
                             "岡崎":"AREAM4838",
                             "刈谷":"AREAM4274",
                             "安城":"AREAM4839",
@@ -1584,6 +1775,7 @@ PLACE = {
                     "尾張・長久手・日進":{
                         "areaLcode":"AREAL4304",
                         "areaM":{
+                            "---":"None",
                             "尾張旭":"AREAM4844",
                             "長久手・日進":"AREAM4304",
                         }
@@ -1591,6 +1783,7 @@ PLACE = {
                     "稲沢・津島・あま市":{
                         "areaLcode":"AREAL4306",
                         "areaM":{
+                            "---":"None",
                             "稲沢":"AREAM4845",
                             "津島・あま市":"AREAM4306",
                         }
@@ -1598,6 +1791,7 @@ PLACE = {
                     "大府・東海・知多半島":{
                         "areaLcode":"AREAL4312",
                         "areaM":{
+                            "---":"None",
                             "大府・東海":"AREAM4312",
                             "常滑・知多半島":"AREAM4846",
                             "半田":"AREAM4847",
@@ -1606,6 +1800,7 @@ PLACE = {
                     "蒲郡・東三河・豊橋":{
                         "areaLcode":"AREAL4322",
                         "areaM":{
+                            "---":"None",
                             "蒲郡・東三河":"AREAM4322",
                             "豊橋":"AREAM4288",
                         }
@@ -1618,6 +1813,7 @@ PLACE = {
                     "浜松・浜名湖":{
                         "areaLcode":"AREAL4832",
                         "areaM":{
+                            "---":"None",
                             "浜北":"AREAM4874",
                             "浜松市天竜区":"AREAM4835",
                             "浜名湖・湖西":"AREAM4868",
@@ -1630,6 +1826,7 @@ PLACE = {
                     "熱海・伊豆・下田":{
                         "areaLcode":"AREAL4800",
                         "areaM":{
+                            "---":"None",
                             "熱海":"AREAM4808",
                             "函南":"AREAM4807",
                             "伊豆の国":"AREAM4858",
@@ -1643,6 +1840,7 @@ PLACE = {
                     "三島・沼津・御殿場":{
                         "areaLcode":"AREAL4812",
                         "areaM":{
+                            "---":"None",
                             "三島":"AREAM4812",
                             "沼津":"AREAM4816",
                             "裾野":"AREAM4861",
@@ -1652,6 +1850,7 @@ PLACE = {
                     "富士市・富士宮":{
                         "areaLcode":"AREAL4842",
                         "areaM":{
+                            "---":"None",
                             "富士市":"AREAM4818",
                             "富士宮":"AREAM4862",
                         }
@@ -1659,6 +1858,7 @@ PLACE = {
                     "静岡・清水":{
                         "areaLcode":"AREAL4822",
                         "areaM":{
+                            "---":"None",
                             "静岡":"AREAM4826",
                             "清水":"AREAM4827",
                         }
@@ -1666,6 +1866,7 @@ PLACE = {
                     "島田・藤枝・焼津":{
                         "areaLcode":"AREAL4851",
                         "areaM":{
+                            "---":"None",
                             "藤枝":"AREAM4822",
                             "焼津":"AREAM4863",
                             "牧之原・吉田":"AREAM4871",
@@ -1676,6 +1877,7 @@ PLACE = {
                     "磐田・袋井・掛川":{
                         "areaLcode":"AREAL4852",
                         "areaM":{
+                            "---":"None",
                             "御前崎":"AREAM4870",
                             "菊川":"AREAM4865",
                             "掛川":"AREAM4832",
@@ -1692,12 +1894,14 @@ PLACE = {
                     "岐阜市":{
                         "areaLcode":"AREAL4500",
                         "areaM":{
+                            "---":"None",
                             "岐阜市":"AREAM4502",
                         }
                     },
                     "各務原・大垣・羽島":{
                         "areaLcode":"AREAL4501",
                         "areaM":{
+                            "---":"None",
                             "各務原":"AREAM4504",
                             "大垣・海津":"AREAM4506",
                             "羽島":"AREAM4503",
@@ -1707,6 +1911,7 @@ PLACE = {
                     "可児・美濃加茂・関":{
                         "areaLcode":"AREAL4504",
                         "areaM":{
+                            "---":"None",
                             "可児・美濃加茂・白川":"AREAM4507",
                             "関・美濃":"AREAM4512",
                             "郡上":"AREAM4508",
@@ -1715,6 +1920,7 @@ PLACE = {
                     "多治見・瑞浪・中津川":{
                         "areaLcode":"AREAL4502",
                         "areaM":{
+                            "---":"None",
                             "多治見":"AREAM4510",
                             "瑞浪":"AREAM4511",
                             "中津川・恵那":"AREAM4509",
@@ -1723,12 +1929,14 @@ PLACE = {
                     "飛騨・高山":{
                         "areaLcode":"AREAL4503",
                         "areaM":{
+                            "---":"None",
                             "飛騨・高山":"AREAM4522",
                         }
                     },
                     "下呂":{
                         "areaLcode":"AREAL4505",
                         "areaM":{
+                            "---":"None",
                             "下呂":"AREAM4848",
                         }
                     },
@@ -1740,24 +1948,28 @@ PLACE = {
                     "四日市":{
                         "areaLcode":"AREAL4600",
                         "areaM":{
+                            "---":"None",
                             "四日市":"AREAM4602",
                         }
                     },
                     "桑名・いなべ":{
                         "areaLcode":"AREAL4602",
                         "areaM":{
+                            "---":"None",
                             "桑名・いなべ":"AREAM4849",
                         }
                     },
                     "鈴鹿":{
                         "areaLcode":"AREAL4603",
                         "areaM":{
+                            "---":"None",
                             "鈴鹿":"AREAM4850",
                         }
                     },
                     "亀山・伊賀・名張":{
                         "areaLcode":"AREAL4605",
                         "areaM":{
+                            "---":"None",
                             "亀山":"AREAM4605",
                             "伊賀":"AREAM4609",
                             "名張":"AREAM4610",
@@ -1766,6 +1978,7 @@ PLACE = {
                     "津・松阪":{
                         "areaLcode":"AREAL4604",
                         "areaM":{
+                            "---":"None",
                             "津":"AREAM4604",
                             "松阪":"AREAM4608",
                         }
@@ -1773,6 +1986,7 @@ PLACE = {
                     "伊勢・鳥羽・志摩":{
                         "areaLcode":"AREAL4601",
                         "areaM":{
+                            "---":"None",
                             "明和・玉城":"AREAM4611",
                             "伊勢":"AREAM4612",
                             "鳥羽・志摩":"AREAM4852",
@@ -1781,6 +1995,7 @@ PLACE = {
                     "熊野・尾鷲・大紀":{
                         "areaLcode":"AREAL4606",
                         "areaM":{
+                            "---":"None",
                             "熊野・御浜・紀宝":"AREAM4607",
                             "尾鷲・大紀・大台":"AREAM4606",
                         }
@@ -1793,6 +2008,7 @@ PLACE = {
                     "長野・須坂・信濃":{
                         "areaLcode":"AREAL4700",
                         "areaM":{
+                            "---":"None",
                             "長野市":"AREAM4702",
                             "須坂・小布施":"AREAM4703",
                             "信濃・飯綱":"AREAM4701",
@@ -1801,90 +2017,105 @@ PLACE = {
                     "千曲・坂城":{
                         "areaLcode":"AREAL4704",
                         "areaM":{
+                            "---":"None",
                             "千曲・坂城":"AREAM4704",
                         }
                     },
                     "飯山・中野・志賀高原":{
                         "areaLcode":"AREAL4705",
                         "areaM":{
+                            "---":"None",
                             "飯山・中野・志賀高原":"AREAM4853",
                         }
                     },
                     "軽井沢":{
                         "areaLcode":"AREAL4732",
                         "areaM":{
+                            "---":"None",
                             "軽井沢":"AREAM4732",
                         }
                     },
                     "小諸・御代田":{
                         "areaLcode":"AREAL4707",
                         "areaM":{
+                            "---":"None",
                             "小諸・御代田":"AREAM4707",
                         }
                     },
                     "上田・東御・長和":{
                         "areaLcode":"AREAL4701",
                         "areaM":{
+                            "---":"None",
                             "上田・東御・長和":"AREAM4854",
                         }
                     },
                     "佐久・小海・川上":{
                         "areaLcode":"AREAL4708",
                         "areaM":{
+                            "---":"None",
                             "佐久・小海・川上":"AREAM4855",
                         }
                     },
                     "松本":{
                         "areaLcode":"AREAL4702",
                         "areaM":{
+                            "---":"None",
                             "松本":"AREAM4712",
                         }
                     },
                     "白馬・大町":{
                         "areaLcode":"AREAL4709",
                         "areaM":{
+                            "---":"None",
                             "白馬・大町":"AREAM4709",
                         }
                     },
                     "安曇野・筑北":{
                         "areaLcode":"AREAL4710",
                         "areaM":{
+                            "---":"None",
                             "安曇野・筑北":"AREAM4710",
                         }
                     },
                     "塩尻・山形村":{
                         "areaLcode":"AREAL4711",
                         "areaM":{
+                            "---":"None",
                             "塩尻・山形村":"AREAM4711",
                         }
                     },
                     "木曽・大桑・南木曽":{
                         "areaLcode":"AREAL4712",
                         "areaM":{
+                            "---":"None",
                             "木曽・大桑・南木曽":"AREAM4708",
                         }
                     },
                     "岡谷・諏訪・茅野":{
                         "areaLcode":"AREAL4703",
                         "areaM":{
+                            "---":"None",
                             "岡谷・諏訪・茅野":"AREAM4722",
                         }
                     },
                     "伊那・箕輪・辰野":{
                         "areaLcode":"AREAL4713",
                         "areaM":{
+                            "---":"None",
                             "伊那・箕輪・辰野":"AREAM4713",
                         }
                     },
                     "駒ケ根・飯島・中川":{
                         "areaLcode":"AREAL4714",
                         "areaM":{
+                            "---":"None",
                             "駒ケ根・飯島・中川":"AREAM4714",
                         }
                     },
                     "飯田・大鹿・根羽":{
                         "areaLcode":"AREAL4715",
                         "areaM":{
+                            "---":"None",
                             "飯田・大鹿・根羽":"AREAM4715",
                         }
                     },
@@ -1896,36 +2127,42 @@ PLACE = {
                     "甲府":{
                         "areaLcode":"AREAL4751",
                         "areaM":{
+                            "---":"None",
                             "甲府":"AREAM4762",
                         }
                     },
                     "甲州・山梨市・笛吹":{
                         "areaLcode":"AREAL4752",
                         "areaM":{
+                            "---":"None",
                             "甲州・山梨市・笛吹":"AREAM4763",
                         }
                     },
                     "早川・身延・南部町":{
                         "areaLcode":"AREAL4753",
                         "areaM":{
+                            "---":"None",
                             "早川・身延・南部町":"AREAM4766",
                         }
                     },
                     "甲斐・韮崎・南アルプス":{
                         "areaLcode":"AREAL4754",
                         "areaM":{
+                            "---":"None",
                             "甲斐・韮崎・南アルプス":"AREAM4764",
                         }
                     },
                     "大月・上野原・都留":{
                         "areaLcode":"AREAL4755",
                         "areaM":{
+                            "---":"None",
                             "大月・上野原・都留":"AREAM4765",
                         }
                     },
                     "河口湖・富士吉田・山中湖":{
                         "areaLcode":"AREAL4750",
                         "areaM":{
+                            "---":"None",
                             "河口湖・富士吉田・山中湖":"AREAM4752",
                         }
                     },
@@ -1937,12 +2174,14 @@ PLACE = {
                     "心斎橋":{
                         "areaLcode":"AREAL3162",
                         "areaM":{
+                            "---":"None",
                             "心斎橋":"AREAM3162",
                         }
                     },
                     "淀屋橋・本町・北浜":{
                         "areaLcode":"AREAL3182",
                         "areaM":{
+                            "---":"None",
                             "淀屋橋":"AREAM3182",
                             "北浜":"AREAM3184",
                             "肥後橋":"AREAM3186",
@@ -1953,6 +2192,7 @@ PLACE = {
                     "京阪エリア":{
                         "areaLcode":"AREAL3305",
                         "areaM":{
+                            "---":"None",
                             "守口":"AREAM3306",
                             "枚方・交野":"AREAM3307",
                             "大東・四條畷":"AREAM3308",
@@ -1963,6 +2203,7 @@ PLACE = {
                     "東大阪・八尾":{
                         "areaLcode":"AREAL3306",
                         "areaM":{
+                            "---":"None",
                             "八尾":"AREAM3309",
                             "東大阪":"AREAM3842",
                         }
@@ -1970,6 +2211,7 @@ PLACE = {
                     "堺・なかもず":{
                         "areaLcode":"AREAL3310",
                         "areaM":{
+                            "---":"None",
                             "堺":"AREAM3312",
                             "なかもず・深井・北野田":"AREAM3313",
                         }
@@ -1977,6 +2219,7 @@ PLACE = {
                     "梅田・北新地":{
                         "areaLcode":"AREAL3102",
                         "areaM":{
+                            "---":"None",
                             "茶屋町・中崎町":"AREAM3824",
                             "梅田・大阪駅":"AREAM3102",
                             "北新地":"AREAM3108",
@@ -1989,6 +2232,7 @@ PLACE = {
                     "難波・道頓堀":{
                         "areaLcode":"AREAL3142",
                         "areaM":{
+                            "---":"None",
                             "なんば（難波）":"AREAM3144",
                             "（大阪）日本橋":"AREAM3150",
                             "芦原・今宮":"AREAM3146",
@@ -1997,6 +2241,7 @@ PLACE = {
                     "天満・天神橋筋・南森町":{
                         "areaLcode":"AREAL3206",
                         "areaM":{
+                            "---":"None",
                             "西天満":"AREAM3208",
                             "南森町":"AREAM3830",
                             "天満・天神橋筋":"AREAM3206",
@@ -2005,6 +2250,7 @@ PLACE = {
                     "天満橋・谷町四丁目":{
                         "areaLcode":"AREAL3208",
                         "areaM":{
+                            "---":"None",
                             "天満橋":"AREAM3204",
                             "谷町・谷町四丁目":"AREAM3202",
                         }
@@ -2012,6 +2258,7 @@ PLACE = {
                     "鶴橋・上本町":{
                         "areaLcode":"AREAL3223",
                         "areaM":{
+                            "---":"None",
                             "鶴橋":"AREAM3222",
                             "上本町":"AREAM3831",
                         }
@@ -2019,6 +2266,7 @@ PLACE = {
                     "京橋・OBP":{
                         "areaLcode":"AREAL3222",
                         "areaM":{
+                            "---":"None",
                             "（大阪）京橋":"AREAM3224",
                             "鶴見・都島":"AREAM3326",
                         }
@@ -2026,6 +2274,7 @@ PLACE = {
                     "ユニバーサルシティ・大阪南港・九条":{
                         "areaLcode":"AREAL3242",
                         "areaM":{
+                            "---":"None",
                             "九条":"AREAM3242",
                             "天保山・弁天町・USJ":"AREAM3246",
                             "大阪南港":"AREAM3244",
@@ -2035,6 +2284,7 @@ PLACE = {
                     "天王寺・新世界・住吉":{
                         "areaLcode":"AREAL3264",
                         "areaM":{
+                            "---":"None",
                             "天王寺・阿倍野":"AREAM3264",
                             "新世界":"AREAM3262",
                             "天下茶屋・西成":"AREAM3270",
@@ -2045,6 +2295,7 @@ PLACE = {
                     "新大阪・西中島・十三":{
                         "areaLcode":"AREAL3282",
                         "areaM":{
+                            "---":"None",
                             "新大阪駅":"AREAM3282",
                             "西中島南方":"AREAM3288",
                             "十三・淀川":"AREAM3284",
@@ -2054,6 +2305,7 @@ PLACE = {
                     "江坂・千里中央・豊中":{
                         "areaLcode":"AREAL3302",
                         "areaM":{
+                            "---":"None",
                             "千里中央":"AREAM3834",
                             "豊中":"AREAM3835",
                             "池田・阪急石橋":"AREAM3864",
@@ -2065,6 +2317,7 @@ PLACE = {
                     "茨木・高槻":{
                         "areaLcode":"AREAL3304",
                         "areaM":{
+                            "---":"None",
                             "茨木":"AREAM3304",
                             "高槻":"AREAM3839",
                         }
@@ -2072,12 +2325,14 @@ PLACE = {
                     "松原・藤井寺・河内長野":{
                         "areaLcode":"AREAL3308",
                         "areaM":{
+                            "---":"None",
                             "松原・藤井寺・河内長野":"AREAM3310",
                         }
                     },
                     "岸和田・和泉・泉佐野":{
                         "areaLcode":"AREAL3314",
                         "areaM":{
+                            "---":"None",
                             "岸和田・和泉・泉佐野":"AREAM3314",
                         }
                     },
@@ -2089,6 +2344,7 @@ PLACE = {
                     "烏丸・大宮":{
                         "areaLcode":"AREAL3414",
                         "areaM":{
+                            "---":"None",
                             "四条烏丸・烏丸御池":"AREAM3414",
                             "四条大宮":"AREAM3843",
                         }
@@ -2096,6 +2352,7 @@ PLACE = {
                     "西院・桂・長岡京":{
                         "areaLcode":"AREAL3413",
                         "areaM":{
+                            "---":"None",
                             "西院":"AREAM3416",
                             "桂・西京極":"AREAM3432",
                             "向日・長岡京":"AREAM3462",
@@ -2104,6 +2361,7 @@ PLACE = {
                     "嵐山・嵯峨野":{
                         "areaLcode":"AREAL3432",
                         "areaM":{
+                            "---":"None",
                             "嵐山":"AREAM3434",
                             "嵯峨野・太秦":"AREAM3845",
                         }
@@ -2111,6 +2369,7 @@ PLACE = {
                     "伏見・山科・宇治":{
                         "areaLcode":"AREAL3442",
                         "areaM":{
+                            "---":"None",
                             "伏見・醍醐":"AREAM3442",
                             "八幡・京田辺":"AREAM3464",
                             "宇治":"AREAM3847",
@@ -2120,6 +2379,7 @@ PLACE = {
                     "大原・京都北部":{
                         "areaLcode":"AREAL3438",
                         "areaM":{
+                            "---":"None",
                             "舞鶴・宮津・京丹後":"AREAM3481",
                             "福知山・綾部":"AREAM3482",
                             "亀岡":"AREAM3483",
@@ -2129,6 +2389,7 @@ PLACE = {
                     "河原町・木屋町・先斗町":{
                         "areaLcode":"AREAL3402",
                         "areaM":{
+                            "---":"None",
                             "四条河原町周辺・寺町":"AREAM3402",
                             "木屋町・先斗町":"AREAM3418",
                         }
@@ -2136,6 +2397,7 @@ PLACE = {
                     "京都御所・西陣・二条城":{
                         "areaLcode":"AREAL3412",
                         "areaM":{
+                            "---":"None",
                             "二条城":"AREAM3413",
                             "京都御所・西陣":"AREAM3844",
                         }
@@ -2143,6 +2405,7 @@ PLACE = {
                     "京都駅・南区":{
                         "areaLcode":"AREAL3404",
                         "areaM":{
+                            "---":"None",
                             "京都駅":"AREAM3404",
                             "七条・丹波口":"AREAM3406",
                             "東寺・東福寺":"AREAM3408",
@@ -2152,6 +2415,7 @@ PLACE = {
                     "祇園・岡崎・清水寺":{
                         "areaLcode":"AREAL3422",
                         "areaM":{
+                            "---":"None",
                             "祇園":"AREAM3422",
                             "円山公園・高台寺・清水寺":"AREAM3423",
                             "岡崎・平安神宮・南禅寺":"AREAM3424",
@@ -2160,6 +2424,7 @@ PLACE = {
                     "金閣寺・北山・銀閣寺":{
                         "areaLcode":"AREAL3436",
                         "areaM":{
+                            "---":"None",
                             "銀閣寺・北白川・出町柳":"AREAM3436",
                             "上賀茂・北山（京都）":"AREAM3444",
                             "金閣寺・衣笠":"AREAM3446",
@@ -2173,6 +2438,7 @@ PLACE = {
                     "大和高田・橿原":{
                         "areaLcode":"AREAL3605",
                         "areaM":{
+                            "---":"None",
                             "大和高田":"AREAM3611",
                             "橿原":"AREAM3612",
                         }
@@ -2180,6 +2446,7 @@ PLACE = {
                     "奈良市・大和郡山・天理":{
                         "areaLcode":"AREAL3601",
                         "areaM":{
+                            "---":"None",
                             "奈良市":"AREAM3602",
                             "大和郡山":"AREAM3859",
                             "天理":"AREAM3607",
@@ -2188,30 +2455,35 @@ PLACE = {
                     "桜井・宇陀":{
                         "areaLcode":"AREAL3603",
                         "areaM":{
+                            "---":"None",
                             "桜井・宇陀":"AREAM3603",
                         }
                     },
                     "生駒":{
                         "areaLcode":"AREAL3602",
                         "areaM":{
+                            "---":"None",
                             "生駒":"AREAM3858",
                         }
                     },
                     "王寺・広陵・香芝":{
                         "areaLcode":"AREAL3604",
                         "areaM":{
+                            "---":"None",
                             "王寺・広陵・香芝":"AREAM3604",
                         }
                     },
                     "吉野・五條・十津川":{
                         "areaLcode":"AREAL3600",
                         "areaM":{
+                            "---":"None",
                             "吉野・五條・十津川":"AREAM3622",
                         }
                     },
                     "曽爾・川上・下北山":{
                         "areaLcode":"AREAL3606",
                         "areaM":{
+                            "---":"None",
                             "曽爾・川上・下北山":"AREAM3606",
                         }
                     },
@@ -2223,6 +2495,7 @@ PLACE = {
                     "草津・栗東":{
                         "areaLcode":"AREAL3700",
                         "areaM":{
+                            "---":"None",
                             "栗東":"AREAM3704",
                             "草津・南草津":"AREAM3712",
                         }
@@ -2230,6 +2503,7 @@ PLACE = {
                     "守山・野洲":{
                         "areaLcode":"AREAL3704",
                         "areaM":{
+                            "---":"None",
                             "野洲":"AREAM3709",
                             "守山":"AREAM3866",
                         }
@@ -2237,24 +2511,28 @@ PLACE = {
                     "近江八幡":{
                         "areaLcode":"AREAL3703",
                         "areaM":{
+                            "---":"None",
                             "近江八幡":"AREAM3860",
                         }
                     },
                     "甲賀・湖南":{
                         "areaLcode":"AREAL3705",
                         "areaM":{
+                            "---":"None",
                             "甲賀・湖南":"AREAM3705",
                         }
                     },
                     "東近江・日野":{
                         "areaLcode":"AREAL3706",
                         "areaM":{
+                            "---":"None",
                             "東近江・日野":"AREAM3706",
                         }
                     },
                     "大津市":{
                         "areaLcode":"AREAL3701",
                         "areaM":{
+                            "---":"None",
                             "大津市南部":"AREAM3702",
                             "大津市北部":"AREAM3711",
                         }
@@ -2262,18 +2540,21 @@ PLACE = {
                     "高島":{
                         "areaLcode":"AREAL3707",
                         "areaM":{
+                            "---":"None",
                             "高島":"AREAM3707",
                         }
                     },
                     "長浜・米原":{
                         "areaLcode":"AREAL3708",
                         "areaM":{
+                            "---":"None",
                             "長浜・米原":"AREAM3722",
                         }
                     },
                     "彦根・多賀・愛荘":{
                         "areaLcode":"AREAL3702",
                         "areaM":{
+                            "---":"None",
                             "彦根・多賀・愛荘":"AREAM3861",
                         }
                     },
@@ -2285,6 +2566,7 @@ PLACE = {
                     "三宮・元町":{
                         "areaLcode":"AREAL3502",
                         "areaM":{
+                            "---":"None",
                             "三宮":"AREAM3502",
                             "新神戸・北野・異人館":"AREAM3506",
                             "神戸元町・トアロード":"AREAM3508",
@@ -2294,12 +2576,14 @@ PLACE = {
                     "神戸":{
                         "areaLcode":"AREAL3512",
                         "areaM":{
+                            "---":"None",
                             "神戸":"AREAM3850",
                         }
                     },
                     "灘・東灘":{
                         "areaLcode":"AREAL3518",
                         "areaM":{
+                            "---":"None",
                             "六甲":"AREAM3851",
                             "王子・灘":"AREAM3518",
                             "住吉":"AREAM3520",
@@ -2310,6 +2594,7 @@ PLACE = {
                     "須磨・垂水・舞子":{
                         "areaLcode":"AREAL3524",
                         "areaM":{
+                            "---":"None",
                             "須磨":"AREAM3524",
                             "垂水":"AREAM3525",
                         }
@@ -2317,6 +2602,7 @@ PLACE = {
                     "神戸市北区・有馬・三田":{
                         "areaLcode":"AREAL3578",
                         "areaM":{
+                            "---":"None",
                             "神戸市北区・有馬温泉":"AREAM3578",
                             "三田":"AREAM3576",
                         }
@@ -2324,6 +2610,7 @@ PLACE = {
                     "神戸ベイエリア":{
                         "areaLcode":"AREAL3542",
                         "areaM":{
+                            "---":"None",
                             "ハーバーランド":"AREAM3854",
                             "メリケンパーク":"AREAM3542",
                             "ポートアイランド":"AREAM3544",
@@ -2333,6 +2620,7 @@ PLACE = {
                     "西宮・芦屋":{
                         "areaLcode":"AREAL3570",
                         "areaM":{
+                            "---":"None",
                             "西宮":"AREAM3570",
                             "芦屋":"AREAM3574",
                             "夙川":"AREAM3572",
@@ -2342,6 +2630,7 @@ PLACE = {
                     "尼崎・伊丹・宝塚":{
                         "areaLcode":"AREAL3562",
                         "areaM":{
+                            "---":"None",
                             "尼崎":"AREAM3566",
                             "宝塚":"AREAM3562",
                             "伊丹":"AREAM3855",
@@ -2351,6 +2640,7 @@ PLACE = {
                     "姫路・加古川":{
                         "areaLcode":"AREAL3582",
                         "areaM":{
+                            "---":"None",
                             "加古川":"AREAM3582",
                             "西脇":"AREAM3856",
                             "姫路":"AREAM3584",
@@ -2360,12 +2650,14 @@ PLACE = {
                     "淡路島":{
                         "areaLcode":"AREAL3588",
                         "areaM":{
+                            "---":"None",
                             "淡路島":"AREAM3588",
                         }
                     },
                     "明石・神戸市西区":{
                         "areaLcode":"AREAL3587",
                         "areaM":{
+                            "---":"None",
                             "明石":"AREAM3587",
                             "三木・小野":"AREAM3589",
                             "神戸市西区":"AREAM3526",
@@ -2374,6 +2666,7 @@ PLACE = {
                     "丹波・城崎北部":{
                         "areaLcode":"AREAL3586",
                         "areaM":{
+                            "---":"None",
                             "丹波・城崎":"AREAM3590",
                         }
                     },
@@ -2385,36 +2678,42 @@ PLACE = {
                     "和歌山市":{
                         "areaLcode":"AREAL3800",
                         "areaM":{
+                            "---":"None",
                             "和歌山市":"AREAM3802",
                         }
                     },
                     "海南":{
                         "areaLcode":"AREAL3804",
                         "areaM":{
+                            "---":"None",
                             "海南":"AREAM3862",
                         }
                     },
                     "岩出・紀の川・橋本":{
                         "areaLcode":"AREAL3803",
                         "areaM":{
+                            "---":"None",
                             "岩出・紀の川・橋本":"AREAM3812",
                         }
                     },
                     "有田・湯浅・みなべ":{
                         "areaLcode":"AREAL3801",
                         "areaM":{
+                            "---":"None",
                             "有田・湯浅・みなべ":"AREAM3811",
                         }
                     },
                     "田辺・白浜・すさみ":{
                         "areaLcode":"AREAL3805",
                         "areaM":{
+                            "---":"None",
                             "田辺・白浜・すさみ":"AREAM3822",
                         }
                     },
                     "新宮・串本":{
                         "areaLcode":"AREAL3802",
                         "areaM":{
+                            "---":"None",
                             "新宮・串本":"AREAM3863",
                         }
                     },
@@ -2426,12 +2725,14 @@ PLACE = {
                     "岡山市":{
                         "areaLcode":"AREAL7200",
                         "areaM":{
+                            "---":"None",
                             "岡山市":"AREAM7202",
                         }
                     },
                     "津山・美咲":{
                         "areaLcode":"AREAL7203",
                         "areaM":{
+                            "---":"None",
                             "美咲":"AREAM7231",
                             "津山":"AREAM7232",
                         }
@@ -2439,36 +2740,42 @@ PLACE = {
                     "倉敷":{
                         "areaLcode":"AREAL7201",
                         "areaM":{
+                            "---":"None",
                             "倉敷":"AREAM7212",
                         }
                     },
                     "赤磐・瀬戸内・備前":{
                         "areaLcode":"AREAL7202",
                         "areaM":{
+                            "---":"None",
                             "赤磐・瀬戸内・備前":"AREAM7222",
                         }
                     },
                     "井原・笠岡・浅口":{
                         "areaLcode":"AREAL7204",
                         "areaM":{
+                            "---":"None",
                             "井原・笠岡・浅口":"AREAM7242",
                         }
                     },
                     "総社・高梁・吉備中央":{
                         "areaLcode":"AREAL7205",
                         "areaM":{
+                            "---":"None",
                             "総社・高梁・吉備中央":"AREAM7252",
                         }
                     },
                     "美作・奈義・勝央":{
                         "areaLcode":"AREAL7206",
                         "areaM":{
+                            "---":"None",
                             "美作・奈義・勝央":"AREAM7262",
                         }
                     },
                     "新見・真庭":{
                         "areaLcode":"AREAL7207",
                         "areaM":{
+                            "---":"None",
                             "新見・真庭":"AREAM7272",
                         }
                     },
@@ -2480,12 +2787,14 @@ PLACE = {
                     "広島市":{
                         "areaLcode":"AREAL7300",
                         "areaM":{
+                            "---":"None",
                             "広島市":"AREAM7303",
                         }
                     },
                     "廿日市市・大竹市・宮島":{
                         "areaLcode":"AREAL7315",
                         "areaM":{
+                            "---":"None",
                             "廿日市市・大竹市":"AREAM7320",
                             "宮島":"AREAM7312",
                         }
@@ -2493,6 +2802,7 @@ PLACE = {
                     "東広島・呉・竹原":{
                         "areaLcode":"AREAL7322",
                         "areaM":{
+                            "---":"None",
                             "西条・東広島":"AREAM7322",
                             "竹原":"AREAM7433",
                             "呉":"AREAM7323",
@@ -2501,6 +2811,7 @@ PLACE = {
                     "福山・尾道・三原":{
                         "areaLcode":"AREAL7332",
                         "areaM":{
+                            "---":"None",
                             "福山・府中":"AREAM7332",
                             "尾道":"AREAM7333",
                             "三原":"AREAM7434",
@@ -2509,6 +2820,7 @@ PLACE = {
                     "県北・三次":{
                         "areaLcode":"AREAL7342",
                         "areaM":{
+                            "---":"None",
                             "庄原・神石":"AREAM7342",
                             "三次・世羅":"AREAM7343",
                             "安芸高田・山県郡":"AREAM7344",
@@ -2522,12 +2834,14 @@ PLACE = {
                     "下関":{
                         "areaLcode":"AREAL7403",
                         "areaM":{
+                            "---":"None",
                             "下関":"AREAM7437",
                         }
                     },
                     "宇部・山陽小野田":{
                         "areaLcode":"AREAL7408",
                         "areaM":{
+                            "---":"None",
                             "宇部":"AREAM7432",
                             "山陽小野田":"AREAM7427",
                         }
@@ -2535,6 +2849,7 @@ PLACE = {
                     "萩・美祢":{
                         "areaLcode":"AREAL7402",
                         "areaM":{
+                            "---":"None",
                             "萩":"AREAM7422",
                             "美祢":"AREAM7426",
                         }
@@ -2542,24 +2857,28 @@ PLACE = {
                     "長門":{
                         "areaLcode":"AREAL7407",
                         "areaM":{
+                            "---":"None",
                             "長門":"AREAM7425",
                         }
                     },
                     "山口市":{
                         "areaLcode":"AREAL7401",
                         "areaM":{
+                            "---":"None",
                             "山口市":"AREAM7412",
                         }
                     },
                     "防府":{
                         "areaLcode":"AREAL7405",
                         "areaM":{
+                            "---":"None",
                             "防府":"AREAM7435",
                         }
                     },
                     "周南・下松":{
                         "areaLcode":"AREAL7406",
                         "areaM":{
+                            "---":"None",
                             "周南":"AREAM7436",
                             "下松":"AREAM7424",
                         }
@@ -2567,12 +2886,14 @@ PLACE = {
                     "岩国":{
                         "areaLcode":"AREAL7400",
                         "areaM":{
+                            "---":"None",
                             "岩国":"AREAM7402",
                         }
                     },
                     "光市・柳井・周防大島":{
                         "areaLcode":"AREAL7404",
                         "areaM":{
+                            "---":"None",
                             "光市・柳井・周防大島":"AREAM7423",
                         }
                     },
@@ -2584,48 +2905,56 @@ PLACE = {
                     "松江":{
                         "areaLcode":"AREAL7150",
                         "areaM":{
+                            "---":"None",
                             "松江":"AREAM7152",
                         }
                     },
                     "出雲":{
                         "areaLcode":"AREAL7153",
                         "areaM":{
+                            "---":"None",
                             "出雲":"AREAM7438",
                         }
                     },
                     "雲南・飯南・奥出雲":{
                         "areaLcode":"AREAL7154",
                         "areaM":{
+                            "---":"None",
                             "雲南・飯南・奥出雲":"AREAM7154",
                         }
                     },
                     "安来":{
                         "areaLcode":"AREAL7155",
                         "areaM":{
+                            "---":"None",
                             "安来":"AREAM7155",
                         }
                     },
                     "大田・美郷・邑南":{
                         "areaLcode":"AREAL7156",
                         "areaM":{
+                            "---":"None",
                             "大田・美郷・邑南":"AREAM7156",
                         }
                     },
                     "浜田・江津":{
                         "areaLcode":"AREAL7152",
                         "areaM":{
+                            "---":"None",
                             "浜田・江津":"AREAM7172",
                         }
                     },
                     "津和野・益田・吉賀":{
                         "areaLcode":"AREAL7157",
                         "areaM":{
+                            "---":"None",
                             "津和野・益田・吉賀":"AREAM7157",
                         }
                     },
                     "隠岐":{
                         "areaLcode":"AREAL7151",
                         "areaM":{
+                            "---":"None",
                             "隠岐":"AREAM7162",
                         }
                     },
@@ -2637,42 +2966,49 @@ PLACE = {
                     "鳥取市":{
                         "areaLcode":"AREAL7100",
                         "areaM":{
+                            "---":"None",
                             "鳥取市":"AREAM7102",
                         }
                     },
                     "八頭・若桜・智頭":{
                         "areaLcode":"AREAL7102",
                         "areaM":{
+                            "---":"None",
                             "八頭・若桜・智頭":"AREAM7132",
                         }
                     },
                     "倉吉・湯梨浜・琴浦":{
                         "areaLcode":"AREAL7101",
                         "areaM":{
+                            "---":"None",
                             "倉吉・湯梨浜・琴浦":"AREAM7112",
                         }
                     },
                     "米子":{
                         "areaLcode":"AREAL7103",
                         "areaM":{
+                            "---":"None",
                             "米子":"AREAM7103",
                         }
                     },
                     "境港":{
                         "areaLcode":"AREAL7104",
                         "areaM":{
+                            "---":"None",
                             "境港":"AREAM7104",
                         }
                     },
                     "大山・伯耆・南部":{
                         "areaLcode":"AREAL7105",
                         "areaM":{
+                            "---":"None",
                             "大山・伯耆・南部":"AREAM7105",
                         }
                     },
                     "日南・日野・江府":{
                         "areaLcode":"AREAL7106",
                         "areaM":{
+                            "---":"None",
                             "日南・日野・江府":"AREAM7106",
                         }
                     },
@@ -2684,18 +3020,21 @@ PLACE = {
                     "伊予・砥部":{
                         "areaLcode":"AREAL7803",
                         "areaM":{
+                            "---":"None",
                             "伊予・砥部":"AREAM7803",
                         }
                     },
                     "今治":{
                         "areaLcode":"AREAL7805",
                         "areaM":{
+                            "---":"None",
                             "今治":"AREAM7812",
                         }
                     },
                     "鬼北・宇和島・愛南":{
                         "areaLcode":"AREAL7802",
                         "areaM":{
+                            "---":"None",
                             "鬼北":"AREAM7821",
                             "宇和島":"AREAM7822",
                         }
@@ -2703,18 +3042,21 @@ PLACE = {
                     "松山":{
                         "areaLcode":"AREAL7800",
                         "areaM":{
+                            "---":"None",
                             "松山":"AREAM7802",
                         }
                     },
                     "久万高原・東温":{
                         "areaLcode":"AREAL7804",
                         "areaM":{
+                            "---":"None",
                             "久万高原・東温":"AREAM7804",
                         }
                     },
                     "西条・新居浜・四国中央":{
                         "areaLcode":"AREAL7801",
                         "areaM":{
+                            "---":"None",
                             "西条":"AREAM7805",
                             "新居浜":"AREAM7924",
                             "四国中央":"AREAM7806",
@@ -2723,6 +3065,7 @@ PLACE = {
                     "八幡浜・大洲・西予":{
                         "areaLcode":"AREAL7806",
                         "areaM":{
+                            "---":"None",
                             "八幡浜・大洲・西予":"AREAM7807",
                         }
                     },
@@ -2734,54 +3077,63 @@ PLACE = {
                     "徳島市":{
                         "areaLcode":"AREAL7600",
                         "areaM":{
+                            "---":"None",
                             "徳島市":"AREAM7602",
                         }
                     },
                     "美馬・吉野川・石井":{
                         "areaLcode":"AREAL7602",
                         "areaM":{
+                            "---":"None",
                             "美馬・吉野川・石井":"AREAM7603",
                         }
                     },
                     "三好":{
                         "areaLcode":"AREAL7603",
                         "areaM":{
+                            "---":"None",
                             "三好":"AREAM7604",
                         }
                     },
                     "小松島":{
                         "areaLcode":"AREAL7604",
                         "areaM":{
+                            "---":"None",
                             "小松島":"AREAM7605",
                         }
                     },
                     "鳴門":{
                         "areaLcode":"AREAL7923",
                         "areaM":{
+                            "---":"None",
                             "鳴門":"AREAM7923",
                         }
                     },
                     "阿波":{
                         "areaLcode":"AREAL7924",
                         "areaM":{
+                            "---":"None",
                             "阿波":"AREAM7925",
                         }
                     },
                     "阿南":{
                         "areaLcode":"AREAL7601",
                         "areaM":{
+                            "---":"None",
                             "阿南":"AREAM7612",
                         }
                     },
                     "那賀・勝浦":{
                         "areaLcode":"AREAL7607",
                         "areaM":{
+                            "---":"None",
                             "那賀・勝浦":"AREAM7607",
                         }
                     },
                     "美波・牟岐・海陽":{
                         "areaLcode":"AREAL7608",
                         "areaM":{
+                            "---":"None",
                             "美波・牟岐・海陽":"AREAM7608",
                         }
                     },
@@ -2793,24 +3145,28 @@ PLACE = {
                     "高松":{
                         "areaLcode":"AREAL7700",
                         "areaM":{
+                            "---":"None",
                             "高松":"AREAM7702",
                         }
                     },
                     "三木・さぬき・東かがわ":{
                         "areaLcode":"AREAL7701",
                         "areaM":{
+                            "---":"None",
                             "三木・さぬき・東かがわ":"AREAM7712",
                         }
                     },
                     "三豊・観音寺":{
                         "areaLcode":"AREAL7704",
                         "areaM":{
+                            "---":"None",
                             "三豊・観音寺":"AREAM7703",
                         }
                     },
                     "坂出・丸亀・善通寺":{
                         "areaLcode":"AREAL7702",
                         "areaM":{
+                            "---":"None",
                             "坂出":"AREAM7722",
                             "丸亀":"AREAM7704",
                             "多度津・善通寺・琴平":"AREAM7705",
@@ -2820,6 +3176,7 @@ PLACE = {
                     "小豆島・直島":{
                         "areaLcode":"AREAL7703",
                         "areaM":{
+                            "---":"None",
                             "小豆島・直島":"AREAM7732",
                         }
                     },
@@ -2831,54 +3188,63 @@ PLACE = {
                     "高知市":{
                         "areaLcode":"AREAL7901",
                         "areaM":{
+                            "---":"None",
                             "高知市":"AREAM7912",
                         }
                     },
                     "南国・香南・香美":{
                         "areaLcode":"AREAL7903",
                         "areaM":{
+                            "---":"None",
                             "南国・香南・香美":"AREAM7903",
                         }
                     },
                     "大豊・本山・土佐町":{
                         "areaLcode":"AREAL7904",
                         "areaM":{
+                            "---":"None",
                             "大豊・本山・土佐町":"AREAM7904",
                         }
                     },
                     "土佐・須崎・いの町":{
                         "areaLcode":"AREAL7905",
                         "areaM":{
+                            "---":"None",
                             "土佐・須崎・いの町":"AREAM7914",
                         }
                     },
                     "仁淀川・越知・佐川":{
                         "areaLcode":"AREAL7906",
                         "areaM":{
+                            "---":"None",
                             "仁淀川・越知・佐川":"AREAM7906",
                         }
                     },
                     "安芸・室戸":{
                         "areaLcode":"AREAL7900",
                         "areaM":{
+                            "---":"None",
                             "安芸・室戸":"AREAM7902",
                         }
                     },
                     "梼原・津野・四万十町":{
                         "areaLcode":"AREAL7907",
                         "areaM":{
+                            "---":"None",
                             "梼原・津野・四万十町":"AREAM7907",
                         }
                     },
                     "四万十市・土佐清水":{
                         "areaLcode":"AREAL7902",
                         "areaM":{
+                            "---":"None",
                             "四万十市・土佐清水":"AREAM7922",
                         }
                     },
                     "宿毛":{
                         "areaLcode":"AREAL7908",
                         "areaM":{
+                            "---":"None",
                             "宿毛":"AREAM7908",
                         }
                     },
@@ -2890,6 +3256,7 @@ PLACE = {
                     "天神・親富孝":{
                         "areaLcode":"AREAL5010",
                         "areaM":{
+                            "---":"None",
                             "天神":"AREAM5012",
                             "親富孝":"AREAM5032",
                         }
@@ -2897,6 +3264,7 @@ PLACE = {
                     "大名・赤坂・今泉":{
                         "areaLcode":"AREAL5011",
                         "areaM":{
+                            "---":"None",
                             "大名":"AREAM5014",
                             "赤坂":"AREAM5016",
                             "今泉":"AREAM5022",
@@ -2905,6 +3273,7 @@ PLACE = {
                     "警固・薬院":{
                         "areaLcode":"AREAL5020",
                         "areaM":{
+                            "---":"None",
                             "警固":"AREAM5024",
                             "薬院":"AREAM5026",
                             "平尾・清川":"AREAM5076",
@@ -2913,12 +3282,14 @@ PLACE = {
                     "博多":{
                         "areaLcode":"AREAL5040",
                         "areaM":{
+                            "---":"None",
                             "博多":"AREAM5042",
                         }
                     },
                     "福岡市南区・大橋":{
                         "areaLcode":"AREAL5070",
                         "areaM":{
+                            "---":"None",
                             "高宮・野間":"AREAM5072",
                             "大橋":"AREAM5074",
                             "その他南区":"AREAM5086",
@@ -2927,6 +3298,7 @@ PLACE = {
                     "西新・百道":{
                         "areaLcode":"AREAL5090",
                         "areaM":{
+                            "---":"None",
                             "百道・藤崎":"AREAM5092",
                             "ヤフードーム周辺":"AREAM5094",
                             "西新":"AREAM5096",
@@ -2935,12 +3307,14 @@ PLACE = {
                     "福岡市早良区":{
                         "areaLcode":"AREAL5091",
                         "areaM":{
+                            "---":"None",
                             "福岡市早良区":"AREAM5098",
                         }
                     },
                     "北九州":{
                         "areaLcode":"AREAL5130",
                         "areaM":{
+                            "---":"None",
                             "小倉北区":"AREAM5131",
                             "八幡西区・東区":"AREAM5136",
                             "小倉南区":"AREAM5433",
@@ -2950,12 +3324,14 @@ PLACE = {
                     "久留米":{
                         "areaLcode":"AREAL5151",
                         "areaM":{
+                            "---":"None",
                             "久留米":"AREAM5144",
                         }
                     },
                     "春日・太宰府・筑紫野":{
                         "areaLcode":"AREAL5154",
                         "areaM":{
+                            "---":"None",
                             "太宰府・二日市":"AREAM5434",
                             "大野城・春日":"AREAM5142",
                         }
@@ -2963,6 +3339,7 @@ PLACE = {
                     "大牟田・柳川":{
                         "areaLcode":"AREAL5435",
                         "areaM":{
+                            "---":"None",
                             "柳川":"AREAM5435",
                             "大牟田":"AREAM5436",
                         }
@@ -2970,6 +3347,7 @@ PLACE = {
                     "大濠・六本松・桜坂":{
                         "areaLcode":"AREAL5030",
                         "areaM":{
+                            "---":"None",
                             "大濠":"AREAM5034",
                             "六本松":"AREAM5036",
                             "桜坂・小笹":"AREAM5038",
@@ -2978,6 +3356,7 @@ PLACE = {
                     "中洲・春吉・川端":{
                         "areaLcode":"AREAL5050",
                         "areaM":{
+                            "---":"None",
                             "中洲":"AREAM5052",
                             "西中洲・春吉":"AREAM5054",
                             "川端・祇園":"AREAM5062",
@@ -2986,6 +3365,7 @@ PLACE = {
                     "姪浜・福岡市西区・糸島":{
                         "areaLcode":"AREAL5100",
                         "areaM":{
+                            "---":"None",
                             "姪浜・小戸":"AREAM5102",
                             "その他西区・糸島":"AREAM5106",
                         }
@@ -2993,6 +3373,7 @@ PLACE = {
                     "香椎・箱崎・その他東区":{
                         "areaLcode":"AREAL5110",
                         "areaM":{
+                            "---":"None",
                             "香椎":"AREAM5112",
                             "箱崎":"AREAM5114",
                             "その他東区":"AREAM5116",
@@ -3001,6 +3382,7 @@ PLACE = {
                     "別府・その他城南区":{
                         "areaLcode":"AREAL5120",
                         "areaM":{
+                            "---":"None",
                             "別府":"AREAM5122",
                             "その他城南区":"AREAM5124",
                         }
@@ -3008,6 +3390,7 @@ PLACE = {
                     "宗像・糟屋・筑豊":{
                         "areaLcode":"AREAL5155",
                         "areaM":{
+                            "---":"None",
                             "宗像":"AREAM5437",
                             "筑豊・糟屋郡":"AREAM5148",
                         }
@@ -3020,48 +3403,56 @@ PLACE = {
                     "佐賀市":{
                         "areaLcode":"AREAL5150",
                         "areaM":{
+                            "---":"None",
                             "佐賀市":"AREAM5162",
                         }
                     },
                     "鳥栖・みやき・神埼":{
                         "areaLcode":"AREAL5156",
                         "areaM":{
+                            "---":"None",
                             "鳥栖・みやき・神埼":"AREAM5438",
                         }
                     },
                     "伊万里・有田":{
                         "areaLcode":"AREAL5157",
                         "areaM":{
+                            "---":"None",
                             "伊万里・有田":"AREAM5152",
                         }
                     },
                     "唐津・呼子・玄海":{
                         "areaLcode":"AREAL5152",
                         "areaM":{
+                            "---":"None",
                             "唐津・呼子・玄海":"AREAM5439",
                         }
                     },
                     "多久・小城":{
                         "areaLcode":"AREAL5158",
                         "areaM":{
+                            "---":"None",
                             "多久・小城":"AREAM5150",
                         }
                     },
                     "武雄":{
                         "areaLcode":"AREAL5153",
                         "areaM":{
+                            "---":"None",
                             "武雄":"AREAM5153",
                         }
                     },
                     "嬉野・鹿島・太良":{
                         "areaLcode":"AREAL5159",
                         "areaM":{
+                            "---":"None",
                             "嬉野・鹿島・太良":"AREAM5151",
                         }
                     },
                     "白石・大町・江北町":{
                         "areaLcode":"AREAL5160",
                         "areaM":{
+                            "---":"None",
                             "白石・大町・江北町":"AREAM5157",
                         }
                     },
@@ -3073,24 +3464,28 @@ PLACE = {
                     "長崎市":{
                         "areaLcode":"AREAL5200",
                         "areaM":{
+                            "---":"None",
                             "長崎市":"AREAM5202",
                         }
                     },
                     "西海":{
                         "areaLcode":"AREAL5205",
                         "areaM":{
+                            "---":"None",
                             "西海":"AREAM5203",
                         }
                     },
                     "時津・長与":{
                         "areaLcode":"AREAL5206",
                         "areaM":{
+                            "---":"None",
                             "時津・長与":"AREAM5204",
                         }
                     },
                     "雲仙・島原・南島原":{
                         "areaLcode":"AREAL5207",
                         "areaM":{
+                            "---":"None",
                             "雲仙":"AREAM5205",
                             "島原・南島原":"AREAM5206",
                         }
@@ -3098,6 +3493,7 @@ PLACE = {
                     "諫早・大村":{
                         "areaLcode":"AREAL5201",
                         "areaM":{
+                            "---":"None",
                             "諫早":"AREAM5207",
                             "大村":"AREAM5212",
                         }
@@ -3105,30 +3501,35 @@ PLACE = {
                     "佐世保":{
                         "areaLcode":"AREAL5202",
                         "areaM":{
+                            "---":"None",
                             "佐世保":"AREAM5222",
                         }
                     },
                     "波佐見・川棚":{
                         "areaLcode":"AREAL5209",
                         "areaM":{
+                            "---":"None",
                             "波佐見・川棚":"AREAM5208",
                         }
                     },
                     "平戸・松浦":{
                         "areaLcode":"AREAL5210",
                         "areaM":{
+                            "---":"None",
                             "平戸・松浦":"AREAM5209",
                         }
                     },
                     "五島":{
                         "areaLcode":"AREAL5203",
                         "areaM":{
+                            "---":"None",
                             "五島":"AREAM5232",
                         }
                     },
                     "壱岐・対馬":{
                         "areaLcode":"AREAL5204",
                         "areaM":{
+                            "---":"None",
                             "壱岐":"AREAM5242",
                             "対馬":"AREAM5210",
                         }
@@ -3141,54 +3542,63 @@ PLACE = {
                     "熊本市":{
                         "areaLcode":"AREAL5250",
                         "areaM":{
+                            "---":"None",
                             "熊本市":"AREAM5252",
                         }
                     },
                     "荒尾・玉名・長洲":{
                         "areaLcode":"AREAL5251",
                         "areaM":{
+                            "---":"None",
                             "荒尾・玉名・長洲":"AREAM5262",
                         }
                     },
                     "山鹿・大津・菊陽":{
                         "areaLcode":"AREAL5256",
                         "areaM":{
+                            "---":"None",
                             "山鹿・大津・菊陽":"AREAM5253",
                         }
                     },
                     "西原・益城・御船":{
                         "areaLcode":"AREAL5257",
                         "areaM":{
+                            "---":"None",
                             "西原・益城・御船":"AREAM5254",
                         }
                     },
                     "宇土・宇城・美里":{
                         "areaLcode":"AREAL5253",
                         "areaM":{
+                            "---":"None",
                             "宇土・宇城・美里":"AREAM5266",
                         }
                     },
                     "水俣・芦北・津奈木":{
                         "areaLcode":"AREAL5258",
                         "areaM":{
+                            "---":"None",
                             "水俣・芦北・津奈木":"AREAM5255",
                         }
                     },
                     "小国・阿蘇・南阿蘇":{
                         "areaLcode":"AREAL5252",
                         "areaM":{
+                            "---":"None",
                             "小国・阿蘇・南阿蘇":"AREAM5264",
                         }
                     },
                     "上天草・天草・苓北":{
                         "areaLcode":"AREAL5255",
                         "areaM":{
+                            "---":"None",
                             "上天草・天草・苓北":"AREAM5270",
                         }
                     },
                     "人吉・球磨・錦町":{
                         "areaLcode":"AREAL5254",
                         "areaM":{
+                            "---":"None",
                             "人吉・球磨・錦町":"AREAM5268",
                         }
                     },
@@ -3200,18 +3610,21 @@ PLACE = {
                     "大分市":{
                         "areaLcode":"AREAL5300",
                         "areaM":{
+                            "---":"None",
                             "大分市":"AREAM5302",
                         }
                     },
                     "臼杵・津久見":{
                         "areaLcode":"AREAL5304",
                         "areaM":{
+                            "---":"None",
                             "臼杵・津久見":"AREAM5304",
                         }
                     },
                     "別府・湯布院・杵築":{
                         "areaLcode":"AREAL5302",
                         "areaM":{
+                            "---":"None",
                             "別府":"AREAM5308",
                             "湯布院":"AREAM5444",
                             "杵築":"AREAM5303",
@@ -3220,24 +3633,28 @@ PLACE = {
                     "佐伯":{
                         "areaLcode":"AREAL5301",
                         "areaM":{
+                            "---":"None",
                             "佐伯":"AREAM5312",
                         }
                     },
                     "豊後大野":{
                         "areaLcode":"AREAL5305",
                         "areaM":{
+                            "---":"None",
                             "豊後大野":"AREAM5305",
                         }
                     },
                     "竹田":{
                         "areaLcode":"AREAL5306",
                         "areaM":{
+                            "---":"None",
                             "竹田":"AREAM5306",
                         }
                     },
                     "日田・玖珠・九重":{
                         "areaLcode":"AREAL5307",
                         "areaM":{
+                            "---":"None",
                             "日田":"AREAM5322",
                             "玖珠・九重":"AREAM5323",
                         }
@@ -3245,6 +3662,7 @@ PLACE = {
                     "中津・宇佐・豊後高田":{
                         "areaLcode":"AREAL5303",
                         "areaM":{
+                            "---":"None",
                             "中津":"AREAM5332",
                             "宇佐":"AREAM5333",
                             "豊後高田・国東":"AREAM5334",
@@ -3258,30 +3676,35 @@ PLACE = {
                     "宮崎市":{
                         "areaLcode":"AREAL5350",
                         "areaM":{
+                            "---":"None",
                             "宮崎市":"AREAM5352",
                         }
                     },
                     "小林・えびの・高原町":{
                         "areaLcode":"AREAL5353",
                         "areaM":{
+                            "---":"None",
                             "小林・えびの・高原町":"AREAM5358",
                         }
                     },
                     "都城・三股":{
                         "areaLcode":"AREAL5354",
                         "areaM":{
+                            "---":"None",
                             "都城・三股":"AREAM5364",
                         }
                     },
                     "日南・串間":{
                         "areaLcode":"AREAL5351",
                         "areaM":{
+                            "---":"None",
                             "日南・串間":"AREAM5354",
                         }
                     },
                     "延岡・日向・門川":{
                         "areaLcode":"AREAL5355",
                         "areaM":{
+                            "---":"None",
                             "延岡":"AREAM5355",
                             "日向・門川":"AREAM5359",
                         }
@@ -3289,18 +3712,21 @@ PLACE = {
                     "高鍋・西都・都農":{
                         "areaLcode":"AREAL5352",
                         "areaM":{
+                            "---":"None",
                             "高鍋・西都・都農":"AREAM5362",
                         }
                     },
                     "五ヶ瀬・高千穂・日之影":{
                         "areaLcode":"AREAL5356",
                         "areaM":{
+                            "---":"None",
                             "五ヶ瀬・高千穂・日之影":"AREAM5356",
                         }
                     },
                     "美郷・椎葉・西米良":{
                         "areaLcode":"AREAL5357",
                         "areaM":{
+                            "---":"None",
                             "美郷・椎葉・西米良":"AREAM5357",
                         }
                     },
@@ -3312,18 +3738,21 @@ PLACE = {
                     "鹿児島市":{
                         "areaLcode":"AREAL5400",
                         "areaM":{
+                            "---":"None",
                             "鹿児島市":"AREAM5402",
                         }
                     },
                     "いちき串木野・日置":{
                         "areaLcode":"AREAL5404",
                         "areaM":{
+                            "---":"None",
                             "いちき串木野・日置":"AREAM5404",
                         }
                     },
                     "枕崎・南さつま・指宿":{
                         "areaLcode":"AREAL5405",
                         "areaM":{
+                            "---":"None",
                             "枕崎・南さつま":"AREAM5405",
                             "指宿・南九州":"AREAM5403",
                         }
@@ -3331,6 +3760,7 @@ PLACE = {
                     "霧島・薩摩川内・姶良":{
                         "areaLcode":"AREAL5406",
                         "areaM":{
+                            "---":"None",
                             "さつま・薩摩川内・姶良":"AREAM5445",
                             "霧島・湧水":"AREAM5406",
                         }
@@ -3338,18 +3768,21 @@ PLACE = {
                     "阿久根・出水・伊佐":{
                         "areaLcode":"AREAL5407",
                         "areaM":{
+                            "---":"None",
                             "阿久根・出水・伊佐":"AREAM5407",
                         }
                     },
                     "志布志・曽於・大崎":{
                         "areaLcode":"AREAL5408",
                         "areaM":{
+                            "---":"None",
                             "志布志・曽於・大崎":"AREAM5408",
                         }
                     },
                     "鹿屋・垂水・肝付":{
                         "areaLcode":"AREAL5401",
                         "areaM":{
+                            "---":"None",
                             "鹿屋・垂水":"AREAM5412",
                             "肝付・錦江・南大隅":"AREAM5413",
                         }
@@ -3357,6 +3790,7 @@ PLACE = {
                     "種子島・屋久島":{
                         "areaLcode":"AREAL5402",
                         "areaM":{
+                            "---":"None",
                             "種子島":"AREAM5422",
                             "屋久島":"AREAM5430",
                         }
@@ -3364,6 +3798,7 @@ PLACE = {
                     "奄美大島・徳之島・与論":{
                         "areaLcode":"AREAL5403",
                         "areaM":{
+                            "---":"None",
                             "奄美大島":"AREAM5432",
                             "徳之島・沖永良部・与論":"AREAM5409",
                         }
@@ -3376,12 +3811,14 @@ PLACE = {
                     "那覇":{
                         "areaLcode":"AREAL8100",
                         "areaM":{
+                            "---":"None",
                             "那覇":"AREAM8102",
                         }
                     },
                     "名護・本島北部":{
                         "areaLcode":"AREAL8400",
                         "areaM":{
+                            "---":"None",
                             "国頭・大宜味":"AREAM8406",
                             "名護・宜野座":"AREAM8402",
                             "本部・今帰仁":"AREAM8404",
@@ -3391,6 +3828,7 @@ PLACE = {
                     "恩納・北谷・本島中部":{
                         "areaLcode":"AREAL8200",
                         "areaM":{
+                            "---":"None",
                             "恩納村・読谷・北谷":"AREAM8302",
                             "沖縄市・うるま市":"AREAM8352",
                             "宜野湾・北中城・中城":"AREAM8202",
@@ -3400,6 +3838,7 @@ PLACE = {
                     "糸満・本島南部":{
                         "areaLcode":"AREAL8150",
                         "areaM":{
+                            "---":"None",
                             "南風原・南城市・八重瀬":"AREAM8156",
                             "糸満・豊見城":"AREAM8152",
                         }
@@ -3407,6 +3846,7 @@ PLACE = {
                     "沖縄離島":{
                         "areaLcode":"AREAL8450",
                         "areaM":{
+                            "---":"None",
                             "石垣島・西表島・与那国島":"AREAM8552",
                             "宮古島・伊良部島・多良間島":"AREAM8502",
                             "久米島・慶良間諸島":"AREAM8454",
@@ -3417,16 +3857,24 @@ PLACE = {
             }
 }
 
-category = {
+CATEGORY = {
+                "---":{
+                    "categoryL_code":"None",
+                    "categoryS":{
+                        "---":"None"
+                    }
+                },
                 "居酒屋":{
                     "categoryL_code":"RSFST09000",
                     "categoryS":{
+                        "---":"None",
                         "居酒屋":"RSFST09004",
                     }
                 },
                 "日本料理・郷土料理":{
                     "categoryL_code":"RSFST02000",
                     "categoryS":{
+                        "---":"None",
                         "懐石料理":"RSFST02001",
                         "会席料理":"RSFST02002",
                         "割烹":"RSFST02003",
@@ -3447,6 +3895,7 @@ category = {
                 "すし・魚料理・シーフード":{
                     "categoryL_code":"RSFST03000",
                     "categoryS":{
+                        "---":"None",
                         "寿司":"RSFST03001",
                         "回転寿司":"RSFST03002",
                         "海鮮丼":"RSFST03014",
@@ -3468,6 +3917,7 @@ category = {
                 "鍋":{
                     "categoryL_code":"RSFST04000",
                     "categoryS":{
+                        "---":"None",
                         "鍋料理":"RSFST04001",
                         "ちゃんこ鍋":"RSFST04002",
                         "水炊き":"RSFST04003",
@@ -3479,6 +3929,7 @@ category = {
                 "焼肉・ホルモン":{
                     "categoryL_code":"RSFST05000",
                     "categoryS":{
+                        "---":"None",
                         "焼肉":"RSFST05001",
                         "サムギョプサル":"RSFST05004",
                         "ホルモン":"RSFST05002",
@@ -3488,6 +3939,7 @@ category = {
                 "焼き鳥・肉料理・串料理":{
                     "categoryL_code":"RSFST06000",
                     "categoryS":{
+                        "---":"None",
                         "牛タン":"RSFST06001",
                         "串揚げ":"RSFST06002",
                         "焼き鳥":"RSFST06003",
@@ -3508,6 +3960,7 @@ category = {
                 "和食":{
                     "categoryL_code":"RSFST01000",
                     "categoryS":{
+                        "---":"None",
                         "定食・食事処":"RSFST01001",
                         "家庭料理":"RSFST01002",
                         "おでん":"RSFST01003",
@@ -3528,6 +3981,7 @@ category = {
                 "お好み焼き・粉物":{
                     "categoryL_code":"RSFST07000",
                     "categoryS":{
+                        "---":"None",
                         "お好み焼き":"RSFST07001",
                         "広島風お好み焼き":"RSFST07002",
                         "もんじゃ焼き":"RSFST07003",
@@ -3540,6 +3994,7 @@ category = {
                 "ラーメン・麺料理":{
                     "categoryL_code":"RSFST08000",
                     "categoryS":{
+                        "---":"None",
                         "そば":"RSFST08001",
                         "うどん":"RSFST08002",
                         "讃岐うどん":"RSFST08003",
@@ -3557,6 +4012,7 @@ category = {
                 "中華":{
                     "categoryL_code":"RSFST14000",
                     "categoryS":{
+                        "---":"None",
                         "広東料理":"RSFST14001",
                         "北京料理":"RSFST14002",
                         "四川料理":"RSFST14003",
@@ -3573,6 +4029,7 @@ category = {
                 "イタリアン・フレンチ":{
                     "categoryL_code":"RSFST11000",
                     "categoryS":{
+                        "---":"None",
                         "フレンチ(フランス料理)":"RSFST11001",
                         "イタリアン(イタリア料理)":"RSFST11002",
                         "パスタ":"RSFST11003",
@@ -3583,6 +4040,7 @@ category = {
                 "洋食":{
                     "categoryL_code":"RSFST13000",
                     "categoryS":{
+                        "---":"None",
                         "バイキング・ビュッフェ":"RSFST13001",
                         "洋食屋":"RSFST13003",
                         "オムレツ・オムライス":"RSFST13004",
@@ -3596,6 +4054,7 @@ category = {
                 "欧米・各国料理":{
                     "categoryL_code":"RSFST12000",
                     "categoryS":{
+                        "---":"None",
                         "スペイン料理":"RSFST12001",
                         "ドイツ料理":"RSFST12002",
                         "ロシア料理":"RSFST12003",
@@ -3612,6 +4071,7 @@ category = {
                 "カレー":{
                     "categoryL_code":"RSFST16000",
                     "categoryS":{
+                        "---":"None",
                         "インドカレー":"RSFST16001",
                         "タイカレー":"RSFST16002",
                         "スープカレー":"RSFST16003",
@@ -3622,6 +4082,7 @@ category = {
                 "アジア・エスニック料理":{
                     "categoryL_code":"RSFST15000",
                     "categoryS":{
+                        "---":"None",
                         "韓国料理":"RSFST15001",
                         "タイ料理":"RSFST15002",
                         "インドネシア料理":"RSFST15003",
@@ -3640,6 +4101,7 @@ category = {
                 "オーガニック・創作料理":{
                     "categoryL_code":"RSFST17000",
                     "categoryS":{
+                        "---":"None",
                         "創作和食":"RSFST17001",
                         "創作料理":"RSFST17002",
                         "薬膳料理":"RSFST17003",
@@ -3651,6 +4113,7 @@ category = {
                 "ダイニングバー・バー・ビアホール":{
                     "categoryL_code":"RSFST10000",
                     "categoryS":{
+                        "---":"None",
                         "ダイニングバー":"RSFST10001",
                         "レストランバー":"RSFST10002",
                         "ビアレストラン":"RSFST10003",
@@ -3670,6 +4133,7 @@ category = {
                 "お酒":{
                     "categoryL_code":"RSFST21000",
                     "categoryS":{
+                        "---":"None",
                         "日本酒":"RSFST21001",
                         "焼酎":"RSFST21002",
                         "泡盛":"RSFST21003",
@@ -3687,6 +4151,7 @@ category = {
                 "カフェ・スイーツ":{
                     "categoryL_code":"RSFST18000",
                     "categoryS":{
+                        "---":"None",
                         "カフェ":"RSFST18001",
                         "喫茶店・軽食":"RSFST18002",
                         "クレープ":"RSFST18015",
@@ -3709,6 +4174,7 @@ category = {
                 "宴会・カラオケ・エンターテイメント":{
                     "categoryL_code":"RSFST19000",
                     "categoryS":{
+                        "---":"None",
                         "パーティールーム・スペース":"RSFST19001",
                         "バンケットルーム":"RSFST19002",
                         "宴会場":"RSFST19003",
@@ -3725,6 +4191,7 @@ category = {
                 "ファミレス・ファーストフード":{
                     "categoryL_code":"RSFST20000",
                     "categoryS":{
+                        "---":"None",
                         "ファミリーレストラン":"RSFST20001",
                         "ファーストカジュアル":"RSFST20002",
                         "ファーストフード":"RSFST20003",
@@ -3733,6 +4200,7 @@ category = {
                 "その他の料理":{
                     "categoryL_code":"RSFST90000",
                     "categoryS":{
+                        "---":"None",
                         "イノベーティブ・フュージョン":"RSFST90002",
                         "その他の料理":"RSFST90001",
                     }
