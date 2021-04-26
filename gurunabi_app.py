@@ -2,7 +2,7 @@
 import tkinter as tk
 from tkinter import ttk
 
-import gurunabi # バック
+import gurunabi  # バック
 import config
 
 import configparser as cp
@@ -13,36 +13,36 @@ import errno
 import textwrap
 import webbrowser
 
-class Window():
-    ####* 初期設定
-    def __init__(self):
 
+class Window():
+    # * 初期設定
+    def __init__(self):
         # メインウィンドウ
         self.win = tk.Tk()
 
-        ####* 値定義
+        # * 値定義
         # エリア情報
         self.place = config.PLACE
-        self.pref_list = list(self.place.keys()) # 都道府県リスト
+        self.pref_list = list(self.place.keys())  # 都道府県リスト
         # 検索キーワード
         self.search_word = tk.StringVar()
         # 検索方式
-        self.rbv = tk.IntVar(None, 0) # デフォルト -> フリーワード検索
+        self.rbv = tk.IntVar(None, 0)  # デフォルト -> フリーワード検索
         # 都道府県,エリアL,エリアM
         self.cbv_place = []
         for i in range(3):
             self.cbv_place.append(tk.StringVar())
 
-        ####* 高度な検索
+        # * 高度な検索
 
         # 高度な検索設定情報読み込み
-        self.exp_ini = cp.ConfigParser() 
-        if os.path.exists("./exp.ini"): 
-            self.exp_ini.read("./exp.ini", encoding="utf-8") # 読み込み
+        self.exp_ini = cp.ConfigParser()
+        if os.path.exists("./exp.ini"):
+            self.exp_ini.read("./exp.ini", encoding="utf-8")  # 読み込み
         else:
             raise FileNotFoundError(errno.ENOENT, os.strerror(errno.ENOENT), "./exp.ini")
 
-        ####* 値定義
+        # * 値定義
         # カテゴリ情報
         self.category = config.CATEGORY
         self.categoryL_list = list(self.category.keys())
@@ -61,27 +61,26 @@ class Window():
             self.ckv_exp.append(tk.BooleanVar())
         # 条件ラベル
         self.exp_label = ["ckv_lunch", "ckv_breakfast", "ckv_takeout", "ckv_delivery", "ckv_nosmoking", "ckv_privateroom",
-                        "ckv_midnight", "ckv_untilmorning", "ckv_bottomlesscup", "ckv_outret", "ckv_card", "ckv_emoney",
-                        "ckv_parking", "ckv_webreserve"]
+                            "ckv_midnight", "ckv_untilmorning", "ckv_bottomlesscup", "ckv_outret", "ckv_card", "ckv_emoney",
+                            "ckv_parking", "ckv_webreserve"]
 
         self.flg = 0
         self.iidf = ""
 
-    ####* 検索ウィンドウ
+    # * 検索ウィンドウ
     def searchWindow(self):
-
         # 検索フォーム入力値検証
         def validate_search(P):
             if P == "":
-                search_submit['state'] = "disabled" # submit無効
+                search_submit['state'] = "disabled"  # submit無効
             else:
-                search_submit['state'] = "normal" # submit有効
+                search_submit['state'] = "normal"  # submit有効
             return True
 
         # ウィンドウ設定
-        self.win.title("ぐるぐるぐるナビ(笑)((激寒") # ウィンドウタイトル
-        self.win.resizable(False, False) # ウィンドウリサイズ無効化
-        val_search = self.win.register(validate_search) # 入力値検証 コールバック登録
+        self.win.title("ぐるぐるぐるナビ(笑)((激寒")  # ウィンドウタイトル
+        self.win.resizable(False, False)  # ウィンドウリサイズ無効化
+        val_search = self.win.register(validate_search)  # 入力値検証 コールバック登録
 
         # 検索方式選定
         search_method_frame = ttk.Frame(self.win, padding=8)
@@ -100,7 +99,8 @@ class Window():
         search_place_pref_label = ttk.Label(search_place_labelf, text="都道府県", padding=(5, 2))
         # 検索地域コンボボックス(都道府県)
         search_place_pref_cb = ttk.Combobox(search_place_labelf, state="readonly", textvariable=self.cbv_place[0], values=self.pref_list)
-        search_place_pref_cb.set(self.pref_list[7]) # デフォルト -> 東京都
+        search_place_pref_cb.set(self.pref_list[7])  # デフォルト -> 東京都
+
         # 都道府県に応じてエリアL,エリアM反映
         def changeareaL():
             search_place_areaL_cb.config(values=list(self.place[self.cbv_place[0].get()]['areaL'].keys()))
@@ -109,7 +109,7 @@ class Window():
             search_place_areaM_cb.config(values=list(self.place[self.cbv_place[0].get()]['areaL'][self.cbv_place[1].get()]['areaM'].keys()))
             search_place_areaM_cb.set(list(self.place[self.cbv_place[0].get()]['areaL'][self.cbv_place[1].get()]['areaM'].keys())[0])
         search_place_pref_cb.bind(
-            '<<ComboboxSelected>>', 
+            '<<ComboboxSelected>>',
             lambda e: changeareaL()
         )
 
@@ -117,12 +117,13 @@ class Window():
         search_place_areaL_label = ttk.Label(search_place_labelf, text="エリアL", padding=(5, 2))
         # 検索地域コンボボックス(エリアL)
         self.cbv_place[1].set(list(self.place[self.cbv_place[0].get()]['areaL'].keys())[0])
-        search_place_areaL_cb = ttk.Combobox(search_place_labelf, state="readonly", textvariable=self.cbv_place[1], values=list(self.place[self.cbv_place[0].get()]['areaL'].keys()))
+        search_place_areaL_cb = ttk.Combobox(search_place_labelf, state="readonly", textvariable=self.cbv_place[1],
+                                                values=list(self.place[self.cbv_place[0].get()]['areaL'].keys()))
+
         # エリアLに応じてエリアM反映
         def changeareaM():
             search_place_areaM_cb.config(values=list(self.place[self.cbv_place[0].get()]['areaL'][self.cbv_place[1].get()]['areaM'].keys()))
             search_place_areaM_cb.set(list(self.place[self.cbv_place[0].get()]['areaL'][self.cbv_place[1].get()]['areaM'].keys())[0])
-
         search_place_areaL_cb.bind(
             '<<ComboboxSelected>>',
             lambda e: changeareaM()
@@ -132,7 +133,8 @@ class Window():
         search_place_areaM_label = ttk.Label(search_place_labelf, text="エリアM", padding=(5, 2))
         # 検索地域コンボボックス(エリアM)
         self.cbv_place[2].set(list(self.place[self.cbv_place[0].get()]['areaL'][self.cbv_place[1].get()]['areaM'].keys())[0])
-        search_place_areaM_cb = ttk.Combobox(search_place_labelf, state="readonly", textvariable=self.cbv_place[2], value=list(self.place[self.cbv_place[0].get()]['areaL'][self.cbv_place[1].get()]['areaM'].keys()))
+        search_place_areaM_cb = ttk.Combobox(search_place_labelf, state="readonly", textvariable=self.cbv_place[2],
+                                                value=list(self.place[self.cbv_place[0].get()]['areaL'][self.cbv_place[1].get()]['areaM'].keys()))
 
         # 高度検索フレーム
         expanded_search_frame = ttk.Frame(self.win, padding=8)
@@ -185,35 +187,34 @@ class Window():
         # 表示
         self.win.mainloop()
 
-    ####* APIコール
+    # * APIコール
     def backcallAPI(self):
         g = gurunabi.GurunabiAPI()
-        self.result = g.callAPI(self.rbv.get(), self.search_word.get(), self.cbv_place,
-                    self.cbv_cate, self.ckv_exp)
+        self.result = g.callAPI(self.rbv.get(), self.search_word.get(), self.cbv_place, self.cbv_cate, self.ckv_exp)
 
         # 検索結果ウィンドウへ
         self.resultWindow()
 
-    ####* 高度な検索
+    # * 高度な検索
     def expanded_search(self):
         # 高度な検索適用
         def expanded_submit():
             self.exp_ini.set('category', 'categoryL', str(self.categoryL_list.index(self.cbv_cate[0].get())))
-            self.exp_ini.set('category', 'categoryS', str(list(self.category[self.cbv_cate[0].get()]['categoryS'].keys()).index(self.cbv_cate[1].get())))
+            self.exp_ini.set('category', 'categoryS', str(list(self.category[self.cbv_cate[0].get()]['categoryS'].keys())
+                                                            .index(self.cbv_cate[1].get())))
 
             # 条件記録
             for i in range(14):
                 self.exp_ini.set('terms', self.exp_label[i], str(self.ckv_exp[i].get()))
             with open("./exp.ini", 'w') as f:
                 self.exp_ini.write(f)
-
-            exp_win.destroy() # ウィンドウ閉じる
+            exp_win.destroy()  # ウィンドウ閉じる
 
         # 高度な検索ウィンドウ
         exp_win = tk.Toplevel(self.win)
-        exp_win.grab_set() # 親ウィンドウ操作無効化
-        exp_win.title("高度な検索") # ウィンドウタイトル
-        exp_win.resizable(False, False) # ウィンドウリサイズ無効化
+        exp_win.grab_set()  # 親ウィンドウ操作無効化
+        exp_win.title("高度な検索")  # ウィンドウタイトル
+        exp_win.resizable(False, False)  # ウィンドウリサイズ無効化
 
         # カテゴリ指定
         cate_ini = self.exp_ini['category']
@@ -224,31 +225,33 @@ class Window():
         categoryL_label = ttk.Label(category_labelf, text="大カテゴリ", padding=(5, 2))
         # 大カテゴリコンボボックス
         categoryL_cb = ttk.Combobox(category_labelf, state="readonly", textvariable=self.cbv_cate[0], values=self.categoryL_list)
-        categoryL_cb.set(self.categoryL_list[int(cate_ini.get('categoryL'))]) 
+        categoryL_cb.set(self.categoryL_list[int(cate_ini.get('categoryL'))])
+
         # 大カテゴリに応じて小カテゴリ反映
         def changecateL():
             categoryS_cb.config(values=list(self.category[self.cbv_cate[0].get()]['categoryS'].keys()))
             categoryS_cb.set(list(self.category[self.cbv_cate[0].get()]['categoryS'].keys())[0])
         categoryL_cb.bind(
-            '<<ComboboxSelected>>', 
+            '<<ComboboxSelected>>',
             lambda e: changecateL()
         )
 
         # 小カテゴリラベル
         categoryS_label = ttk.Label(category_labelf, text="小カテゴリ", padding=(5, 2))
         # 小カテゴリコンボボックス
-        categoryS_cb = ttk.Combobox(category_labelf, state="readonly", textvariable=self.cbv_cate[1], values=list(self.category[self.cbv_cate[0].get()]['categoryS'].keys()))
-        categoryS_cb.set(list(self.category[self.cbv_cate[0].get()]['categoryS'].keys())[int(cate_ini.get('categoryS'))]) 
+        categoryS_cb = ttk.Combobox(category_labelf, state="readonly", textvariable=self.cbv_cate[1],
+                                    values=list(self.category[self.cbv_cate[0].get()]['categoryS'].keys()))
+        categoryS_cb.set(list(self.category[self.cbv_cate[0].get()]['categoryS'].keys())[int(cate_ini.get('categoryS'))])
 
         # 条件指定
         terms_ini = self.exp_ini['terms']
         terms_frame = ttk.Frame(exp_win, padding=8)
         terms_labelf = ttk.LabelFrame(terms_frame, text="条件指定", padding=8)
-        
+
         # 値定義
         for i in range(14):
             self.ckv_exp[i].set(terms_ini.get(self.exp_label[i]))
-        
+
         # 条件指定チェックボックス
         # ランチ営業有
         terms_lunch = ttk.Checkbutton(terms_labelf, text="ランチ営業有", variable=self.ckv_exp[0])
@@ -295,35 +298,35 @@ class Window():
         categoryS_label.grid(row=1, column=0)
         categoryS_cb.grid(row=1, column=1)
         # 条件チェックボックス配置
-        terms_frame.grid(row=0, column=1, sticky=tk.W+tk.E)
-        terms_labelf.grid(row=0, column=0, sticky=tk.W+tk.E)
-        terms_lunch.grid(row=0, column=0, sticky=tk.W+tk.E)
-        terms_breakfast.grid(row=0, column=1, sticky=tk.W+tk.E)
-        terms_takeout.grid(row=0, column=2, sticky=tk.W+tk.E)
-        terms_delivery.grid(row=0, column=3, sticky=tk.W+tk.E)
-        terms_nosmoking.grid(row=1, column=0, sticky=tk.W+tk.E)
-        terms_privateroom.grid(row=1, column=1, sticky=tk.W+tk.E)
-        terms_midnight.grid(row=1, column=2, sticky=tk.W+tk.E)
-        terms_untilmorning.grid(row=1, column=3, sticky=tk.W+tk.E)
-        terms_bottomlesscup.grid(row=2, column=0, sticky=tk.W+tk.E)
-        terms_outret.grid(row=2, column=1, sticky=tk.W+tk.E)
-        terms_card.grid(row=2, column=2, sticky=tk.W+tk.E)
-        terms_emoney.grid(row=2, column=3, sticky=tk.W+tk.E)
-        terms_parking.grid(row=3, column=0, sticky=tk.W+tk.E)
-        terms_webreserve.grid(row=3, column=1, sticky=tk.W+tk.E)
+        terms_frame.grid(row=0, column=1, sticky=tk.W + tk.E)
+        terms_labelf.grid(row=0, column=0, sticky=tk.W + tk.E)
+        terms_lunch.grid(row=0, column=0, sticky=tk.W + tk.E)
+        terms_breakfast.grid(row=0, column=1, sticky=tk.W + tk.E)
+        terms_takeout.grid(row=0, column=2, sticky=tk.W + tk.E)
+        terms_delivery.grid(row=0, column=3, sticky=tk.W + tk.E)
+        terms_nosmoking.grid(row=1, column=0, sticky=tk.W + tk.E)
+        terms_privateroom.grid(row=1, column=1, sticky=tk.W + tk.E)
+        terms_midnight.grid(row=1, column=2, sticky=tk.W + tk.E)
+        terms_untilmorning.grid(row=1, column=3, sticky=tk.W + tk.E)
+        terms_bottomlesscup.grid(row=2, column=0, sticky=tk.W + tk.E)
+        terms_outret.grid(row=2, column=1, sticky=tk.W + tk.E)
+        terms_card.grid(row=2, column=2, sticky=tk.W + tk.E)
+        terms_emoney.grid(row=2, column=3, sticky=tk.W + tk.E)
+        terms_parking.grid(row=3, column=0, sticky=tk.W + tk.E)
+        terms_webreserve.grid(row=3, column=1, sticky=tk.W + tk.E)
         # 適用ボタン配置
         exp_submit_frame.grid(row=1, column=2)
         exp_submit.grid(row=0, column=0)
 
-        exp_win.mainloop() # ウィンドウ表示
+        exp_win.mainloop()  # ウィンドウ表示
 
-    ####* 検索結果
+    # * 検索結果
     def resultWindow(self):
         # 検索結果ウィンドウ
         result_win = tk.Toplevel(self.win)
-        result_win.title("検索結果") # ウィンドウタイトル
-        result_win.grab_set() # 親ウィンドウ操作無効化
-        result_win.resizable(False, False) # ウィンドウリサイズ無効化
+        result_win.title("検索結果")  # ウィンドウタイトル
+        result_win.grab_set()  # 親ウィンドウ操作無効化
+        result_win.resizable(False, False)  # ウィンドウリサイズ無効化
 
         result_frame = ttk.Frame(result_win, width=100, padding=8)
         if 'error' in self.result:
@@ -332,13 +335,13 @@ class Window():
                 result_label = ttk.Label(result_frame, text="指定された条件の店舗は存在しませんでした。", padding=(5, 2))
                 result_frame.grid(row=0, column=0, sticky=tk.W)
                 result_label.grid(row=0, column=0, sticky=tk.W)
-            else: # その他のエラー
+            else:  # その他のエラー
                 from tkinter import messagebox
-                messagebox.showerror("エラー: "+str(self.result['error'][0]['code']), self.result['error'][0]['message'])
+                messagebox.showerror("エラー: " + str(self.result['error'][0]['code']), self.result['error'][0]['message'])
                 result_win.destroy()
         else:
             # ツリービュー
-            self.tree = ttk.Treeview(result_frame, height=6, columns=(1,2,3,4), show="headings")
+            self.tree = ttk.Treeview(result_frame, height=6, columns=(1, 2, 3, 4), show="headings")
 
             # 行の高さ変更
             style = ttk.Style(result_frame)
@@ -358,14 +361,14 @@ class Window():
 
             # データ挿入
             for i in range(len(self.result['rest'])):
-                name = self.result['rest'][i]['name'] # 店舗名
-                add8tel = self.result['rest'][i]['address']+'\n[TEL]'+self.result['rest'][i]['tel'] # 住所/TEL
+                name = self.result['rest'][i]['name']  # 店舗名
+                add8tel = self.result['rest'][i]['address'] + '\n[TEL]' + self.result['rest'][i]['tel']  # 住所/TEL
                 # 営業時間/休業日
-                time = '\n'.join(textwrap.wrap(self.result['rest'][i]['opentime'], 40)) # 文字列折返し
-                time8holi = '[営業時間]\n'+time+'\n[休業日] '+self.result['rest'][i]['holiday']
+                time = '\n'.join(textwrap.wrap(self.result['rest'][i]['opentime'], 40))  # 文字列折返し
+                time8holi = '[営業時間]\n' + time + '\n[休業日] ' + self.result['rest'][i]['holiday']
                 # PR文
                 pr = self.result['rest'][i]['pr']['pr_short']
-                pr = '\n'.join(textwrap.wrap(pr, 40)) # 文字列折返し
+                pr = '\n'.join(textwrap.wrap(pr, 40))  # 文字列折返し
 
                 # データ挿入
                 self.tree.insert("", "end", values=(name, add8tel, time8holi, pr))
@@ -376,7 +379,7 @@ class Window():
             # 垂直スクロールバー
             ysb = tk.Scrollbar(result_frame, orient=tk.VERTICAL, command=self.tree.yview)
             self.tree["yscrollcommand"] = ysb.set
-            self.tree.grid_rowconfigure(0, weight=1) # カラム幅によってスクロールバー有効化
+            self.tree.grid_rowconfigure(0, weight=1)  # カラム幅によってスクロールバー有効化
 
             # 配置
             result_frame.grid(row=0, column=0, sticky=tk.W)
@@ -387,24 +390,23 @@ class Window():
             # 行が選択されたらイベント発生
             self.tree.bind("<<TreeviewSelect>>", self.openURL)
 
-        result_win.mainloop() # ウィンドウ表示
+        result_win.mainloop()  # ウィンドウ表示
 
-    ####* サイトURL開く処理
+    # * サイトURL開く処理
     def openURL(self, event):
         for item in self.tree.selection():
             # 2度クリックされたら
             if self.flg == 1 and self.iidf == item:
-                idx = int(item[1:], 16)-1
-                url = self.result['rest'][idx]['url'] # サイトURL
-                webbrowser.open(url) # ブラウザで開く
+                idx = int(item[1:], 16) - 1
+                url = self.result['rest'][idx]['url']  # サイトURL
+                webbrowser.open(url)  # ブラウザで開く
                 self.flg = 0
             else:
                 self.flg = 1
                 self.iidf = item
 
-    ####* プログラム終了処理
+    # * プログラム終了処理
     def on_closing(self):
-    
         # iniファイル初期化
         self.exp_ini.set('category', 'categoryL', "0")
         self.exp_ini.set('category', 'categoryS', "0")
@@ -415,11 +417,13 @@ class Window():
         with open("./exp.ini", 'w') as f:
             self.exp_ini.write(f)
 
-        self.win.destroy() # ウィンドウ閉じる
+        self.win.destroy()  # ウィンドウ閉じる
+
 
 def main():
     w = Window()
     w.searchWindow()
+
 
 if __name__ == "__main__":
     main()
